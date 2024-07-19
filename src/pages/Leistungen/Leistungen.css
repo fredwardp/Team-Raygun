@@ -184,7 +184,7 @@
     grid-template-columns: 1fr;
   }
   .kunden_sec {
-    padding-block: 12%;
+    padding-block: 8%;
     overflow: hidden;
   }
   .kunden_sec article {
@@ -206,7 +206,7 @@
     }
   }
   .kunden_sec h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .kunden_sec article img {
     width: 100px;
