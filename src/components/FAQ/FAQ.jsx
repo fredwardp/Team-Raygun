@@ -29,7 +29,7 @@ const FAQ = () => {
         heading={"Fragen & Antworten"}
         text={text}
       />
-      <article className="container">
+      <article className="content">
         {content.map((data, index) => (
           <QuestionBlock data={data} key={index} />
         ))}

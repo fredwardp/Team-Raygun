@@ -6,7 +6,7 @@
   padding-block: var(--padding-xxl);
 }
 
-.faq .container {
+.faq .content {
   max-width: 840px;
   margin-inline: auto;
   display: flex;

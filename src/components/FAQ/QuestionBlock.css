@@ -15,7 +15,7 @@
 }
 
 .question_block .inner {
-  padding-block: 35px;
+  padding-block: 10px;
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
 
 @keyframes openInner {
   0% {
-    padding-bottom: 35px;
+    padding-bottom: 20px;
   }
   100% {
     padding-bottom: var(--padding-xl);
@@ -45,7 +45,7 @@
     padding-bottom: var(--padding-xl);
   }
   100% {
-    padding-bottom: 35px;
+    padding-bottom: 20px;
   }
 }
 
@@ -63,7 +63,7 @@
   transition: all 0.3s ease;
   position: absolute;
   max-width: 60ch;
-  top: 70px;
+  top: 60px;
 }
 
 .show_answer {
@@ -83,6 +83,7 @@
 
 .hide_answer {
   animation: closeanswer 0.4s forwards;
+  opacity: 0;
 }
 
 @keyframes closeanswer {
