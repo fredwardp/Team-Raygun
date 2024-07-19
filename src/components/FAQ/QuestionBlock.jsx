@@ -13,15 +13,14 @@ const QuestionBlock = ({ data }) => {
       answerElement.classList.remove("show_answer");
       answerElement.classList.add("hide_answer");
 
-      // Use a timeout to set display: none after the animation completes
       timeoutId = setTimeout(() => {
         if (answerElement) {
           answerElement.style.display = "none";
         }
-      }, 400); // Match this duration with the closeanswer animation duration
+      }, 400);
     } else {
       answerElement.classList.remove("hide_answer");
-      answerElement.style.display = "block"; // Show the element before starting the animation
+      answerElement.style.display = "block";
       answerElement.classList.add("show_answer");
     }
 
@@ -29,7 +28,7 @@ const QuestionBlock = ({ data }) => {
   };
 
   useEffect(() => {
-    return () => clearTimeout(timeoutId); // Cleanup the timeout on component unmount
+    return () => clearTimeout(timeoutId);
   }, []);
 
   return (

@@ -14,7 +14,7 @@
 }
 
 .question_block .inner {
-  padding-block: 10px;
+  padding-block: 24px 0px;
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
