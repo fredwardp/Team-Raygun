@@ -142,8 +142,6 @@ button {
   :root {
     --padding-xxl: 160px;
     --padding-xl: 80px;
-    --padding-l: 80px;
-    --padding-m: 60px;
     --padding-xs: 24px;
     --padding-xxs: 20px;
   }
@@ -151,13 +149,8 @@ button {
 
 @media only screen and (max-width: 560px) {
   :root {
-    --padding-xxl: 160px;
-    --padding-xl: 80px;
-    --padding-l: 80px;
     --padding-m: 60px;
     --padding-xm: 24px;
     --padding-s: 24px;
-    --padding-xs: 24px;
-    --padding-xxs: 20px;
   }
 }

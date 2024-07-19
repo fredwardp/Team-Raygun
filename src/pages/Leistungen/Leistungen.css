@@ -19,6 +19,14 @@
   .testimonials .content article {
     min-width: calc(100vw - 12vw);
     max-width: calc(100vw - 12vw);
+    margin-inline: 6vw;
+  }
+  .testimonials .content {
+    display: flex;
+    gap: unset;
+    overflow: hidden;
+    /* transform: translateX(-1760px); */
+    transition: all 0.7s ease-in-out;
   }
   .faq {
     background-position: center calc(80px + 12%);
@@ -35,6 +43,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .sprungbtn_wrapper {
+    gap: 16px;
+  }
+  .leistungen_header .btn_gradient {
+    height: unset;
+    width: unset;
+    padding: 17px 32px;
+  }
   .leistungen_fürwen .content article img {
     padding-block: 60px;
   }
@@ -66,5 +82,187 @@
   }
   .leistungen_phasen_mobile {
     display: flex !important;
+  }
+  .leistungen_phasen_mobile {
+    margin-bottom: 100px !important;
+  }
+  .leistungen_cj {
+    padding-top: 160px;
+  }
+  @keyframes openInner {
+    0% {
+      padding-bottom: 35px;
+    }
+    100% {
+      padding-bottom: 140px;
+    }
+  }
+  @keyframes closeInner {
+    0% {
+      padding-bottom: 140px;
+    }
+    100% {
+      padding-bottom: 35px;
+    }
+  }
+  .leistungen_magnet {
+    background-size: 200%;
+    background-position: top center;
+  }
+  .leistungen_inbound {
+    background-size: 200%;
+    background-position: top center;
+  }
+  .leistungen_fürwen {
+    background-size: 200%;
+    background-position: top 60px center;
+  }
+  .header_gradient .link_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header_gradient .link_wrapper p:nth-of-type(1) {
+    width: 100%;
+    text-align: center;
+  }
+  .potenzial_analyse article {
+    background-size: 200%, 400%, cover;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .nav_logo {
+    width: 60%;
+  }
+  .sprungbtn_wrapper {
+    gap: 12px;
+  }
+  .sprungbtn {
+    padding-inline: 16px;
+  }
+  .leistungen_magnet article img {
+    width: 48px;
+    height: 48px;
+  }
+  .leistungen_lst .content article img {
+    width: 40px;
+    height: 40px;
+  }
+  .leistungen_cj {
+    background-size: contain, 180%;
+    background-position: top 0 center, top 100px center;
+  }
+  .leistungen_cj .content {
+    grid-template-columns: 1fr;
+  }
+  @keyframes openInner {
+    0% {
+      padding-bottom: 35px;
+    }
+    100% {
+      padding-bottom: 190px;
+    }
+  }
+  @keyframes closeInner {
+    0% {
+      padding-bottom: 190px;
+    }
+    100% {
+      padding-bottom: 35px;
+    }
+  }
+  .leistungen_magnet .content {
+    grid-template-columns: 1fr;
+  }
+  .leistungen_lst .content {
+    grid-template-columns: 1fr;
+  }
+  .leistungen_inbound .content {
+    grid-template-columns: 1fr;
+  }
+  .leistungen_lst .heading {
+    grid-template-columns: 1fr;
+  }
+  .kunden_sec {
+    padding-block: 12%;
+    overflow: hidden;
+  }
+  .kunden_sec article {
+    display: flex;
+    gap: unset;
+    width: calc(
+      10 * 100px + 10 * 40px
+    ); /* Adjust based on the number of logos and their width */
+    animation: scroll 20s linear infinite;
+    padding-inline: unset;
+    justify-content: unset;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .kunden_sec h2 {
+    margin-bottom: 20px;
+  }
+  .kunden_sec article img {
+    width: 100px;
+    max-width: unset;
+    margin-right: 40px;
+  }
+  .kundenlogo_mobile {
+    display: block;
+  }
+  .kunden_sec .kunden_mobile_shadow {
+    display: block;
+  }
+  .potenzial_analyse {
+    margin-bottom: 40px;
+  }
+  .potenzial_analyse article {
+    gap: 60px;
+    background-size: 450%, 400%, cover;
+  }
+  .potenzial_analyse .btn {
+    padding: 17px var(--padding-s);
+  }
+  .testimonials h2 {
+    max-width: 16ch;
+  }
+  .testimonials .content article {
+    height: unset;
+    min-height: 459px;
+  }
+  .partner_wrapper {
+    padding: 40px;
+  }
+  .partner_infos img {
+    height: 48px;
+    width: 48px;
+  }
+  footer .footer_content_wrapper {
+    margin-bottom: 80px;
+  }
+  footer .footer_content {
+    flex-wrap: wrap;
+  }
+  footer .footer_content article:first-of-type {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  footer .footer_content article:first-of-type h2 {
+    margin-bottom: 4px;
+  }
+  .footer_phone {
+    text-align: center;
+  }
+  footer .footer_content article:last-of-type {
+    margin-right: 25vw;
+  }
+  .footer_bottom p {
+    margin-bottom: 40px;
   }
 }

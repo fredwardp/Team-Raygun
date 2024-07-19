@@ -14,7 +14,7 @@
 
 .leistungen_inbound .content article {
   background-color: var(--darker-bg-color);
-  border-radius: 40px;
+  border-radius: var(--padding-s);
   border: 1.25px solid rgba(255, 255, 255, 0.05);
   padding: var(--padding-s);
   display: flex;

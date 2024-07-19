@@ -36,7 +36,7 @@
 .partner_infos div {
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
+  gap: 8px;
 }
 
 .partner_name {

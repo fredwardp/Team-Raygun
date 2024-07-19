@@ -24,7 +24,7 @@
 .leistungen_lst .content article {
   background-color: var(--darker-bg-color);
   border: 1.25px solid rgba(255, 255, 255, 0.05);
-  border-radius: 40px;
+  border-radius: var(--padding-s);
   padding: var(--padding-xm);
   display: flex;
   flex-direction: column;

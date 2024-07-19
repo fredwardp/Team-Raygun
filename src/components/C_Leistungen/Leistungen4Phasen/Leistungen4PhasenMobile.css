@@ -32,8 +32,74 @@
 
 .phasen_dropdown_block {
   border-top: 1px solid var(--brighter-bg-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.leistungen_phasen_mobile .phasen_dropdown_block .inner {
+  padding-bottom: 20px;
+}
+
+.leistungen_phasen_mobile .phasen_dropdown_block .close_inner {
+  animation: closeInnerMobile 0.5s forwards;
+}
+
+@keyframes closeInnerMobile {
+  0% {
+    padding-bottom: var(--padding-xl);
+  }
+  100% {
+    padding-bottom: 0px;
+  }
+}
+
+.leistungen_phasen_mobile .phasen_dropdown_block .opened_inner {
+  animation: openInnerMobile 0.5s forwards;
+}
+
+@keyframes openInnerMobile {
+  0% {
+    padding-bottom: 0;
+  }
+  100% {
+    padding-bottom: 100px;
+  }
 }
 
 .phasen_dropdown_block .upper {
   padding-block: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.phasen_dropdown_block .upper .content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+}
+
+.phasen_dropdown_block .upper .content p {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: var(--main-font);
+  font-size: var(--font-size-xm);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.phasen_dropdown_block .upper .content h3 {
+  font-family: var(--main-font);
+  font-size: var(--font-size-xm);
+  font-weight: 500;
+}
+
+.lower_text {
+  position: absolute;
+  top: 70px;
+  max-width: 90%;
 }

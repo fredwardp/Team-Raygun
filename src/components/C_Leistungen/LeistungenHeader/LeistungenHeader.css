@@ -105,7 +105,7 @@
   border-radius: 100px;
   color: var(--main-bg-color);
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--font-size-s);
   height: 64px;
   width: 220px;
   display: flex;
@@ -129,7 +129,7 @@
   border-radius: 100px;
   border: solid 1px rgba(255, 255, 255, 0.11);
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--font-size-xs);
   color: var(--text-color);
   cursor: pointer;
 }

@@ -4,6 +4,7 @@
   background: url("/img/leistungen_kunden_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
   justify-content: center;
   padding-block: 3%;
   animation: ls-header-slide-in 2s linear;
@@ -78,4 +79,25 @@
 
 .kunden_sec article img {
   max-width: 15%;
+}
+
+.kundenlogo_mobile {
+  display: none;
+}
+
+.kunden_sec .kunden_mobile_shadow {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  bottom: -30px;
+  background: linear-gradient(
+    90deg,
+    #070810 0%,
+    rgba(7, 8, 16, 0) 33.33%,
+    rgba(7, 8, 16, 0) 66.67%,
+    #070810 100%
+  );
+  display: none;
 }
