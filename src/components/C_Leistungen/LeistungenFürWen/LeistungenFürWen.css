@@ -1,0 +1,45 @@
+.leistungen_fürwen {
+  padding-block: calc((var(--padding-xxl) + var(--padding-xxl)) - 20vh)
+    calc((var(--padding-xxl) + var(--padding-xxl)));
+  background: url("/img/leistungen_magnet_bg_blur.png"), var(--main-bg-color);
+  background-size: contain;
+  background-position: top 220px right 10%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.leistungen_fürwen .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--padding-s);
+}
+
+.leistungen_fürwen .header_gradient h2 {
+  max-width: 22ch;
+}
+
+.leistungen_fürwen .content article {
+  background-color: var(--darker-bg-color);
+  padding: var(--padding-xm);
+  border-radius: var(--padding-xs);
+  border: 1.25px solid rgba(255, 255, 255, 0.05);
+}
+
+.leistungen_fürwen .content article img {
+  width: 31px;
+  display: block;
+  margin-inline: auto;
+  padding-block: 100px;
+}
+
+.leistungen_fürwen .content article h3 {
+  font-size: var(--font-size-m);
+  margin-bottom: var(--padding-s);
+  font-weight: 500;
+}
+
+.leistungen_fürwen .content article p {
+  font-size: var(--font-size-s);
+  line-height: 115%;
+}

@@ -1,0 +1,81 @@
+.potenzial_analyse {
+  padding-block: var(--padding-xl);
+  background-color: var(--main-bg-color);
+  position: relative;
+  z-index: 2;
+}
+
+.potenzial_analyse .border_wrapper {
+  border-radius: 40px;
+  background: radial-gradient(
+    50% 100% at 50% 0%,
+    rgba(142, 162, 188, 0.5) 0%,
+    rgba(142, 162, 188, 0.2) 100%
+  );
+  padding: 1.25px;
+}
+
+.potenzial_analyse article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--padding-s);
+  padding: 138px var(--padding-s) 129px var(--padding-s);
+  background: url("/img/potenzialanalyse_elipse.png"),
+    url("/img/leistungen_hero_grid.png"), var(--main-bg-color);
+  background-size: contain, 120%, cover;
+  background-position: bottom, top, center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+}
+
+.gradient_bg {
+  background: var(--accent-color-gradient);
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.gradient_bg div {
+  background: var(--main-bg-color);
+  padding: 5px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.potenzial_analyse h2 {
+  max-width: 20ch;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.potenzial_analyse .btn {
+  background: url("/img/Button-Shine.png"), var(--heading-color);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding: 21px var(--padding-s);
+  border-radius: 100px;
+  color: var(--main-bg-color);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-family: var(--main-font);
+}
+
+.potenzial_analyse .elipse_bg {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("/img/potenzialanalyse_icon_elipse.png") no-repeat center;
+}

@@ -1,0 +1,19 @@
+.header_gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--padding-xxs);
+  margin-block: var(--padding-xl);
+}
+
+.header_gradient h2 {
+  max-width: 20ch;
+  text-align: center;
+  line-height: 110%;
+}
+
+.header_gradient .link_wrapper {
+  display: flex;
+  gap: 3px;
+  margin-top: -10px;
+}

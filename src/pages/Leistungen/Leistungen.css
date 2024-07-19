@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1100px) {
+  .leistungen_header_content {
+    gap: 60px;
+    padding-top: 8%;
+  }
+  .kunden_sec {
+    padding-block: 5%;
+  }
+
+  .leistungen_inbound .content {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+  .leistungen_fürwen .content {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+  .leistungen_zusammenarbeit .content {
+    gap: 14%;
+  }
+  .testimonials .content article {
+    min-width: calc(100vw - 12vw);
+    max-width: calc(100vw - 12vw);
+  }
+  .faq {
+    background-position: center calc(80px + 12%);
+  }
+  .footer_content_wrapper {
+    justify-content: space-between;
+  }
+  footer .footer_logo {
+    width: unset;
+  }
+  footer .footer_content {
+    width: unset;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leistungen_fürwen .content article img {
+    padding-block: 60px;
+  }
+  .leistungen_zusammenarbeit {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+  .leistungen_zusammenarbeit h2 {
+    max-width: 20ch;
+  }
+  .leistungen_zusammenarbeit .scroll_animation {
+    display: none;
+  }
+  .leistungen_zusammenarbeit .content article {
+    margin-bottom: 80px;
+  }
+  .leistungen_zusammenarbeit .content article:last-of-type {
+    margin-bottom: unset;
+  }
+  .arrows {
+    bottom: 20px;
+  }
+  footer .footer_content_wrapper {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .leistungen_phasen {
+    display: none;
+  }
+  .leistungen_phasen_mobile {
+    display: flex !important;
+  }
+}

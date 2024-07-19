@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Startseite",
+    "link": "/"
+  },
+  {
+    "name": "Leistungen",
+    "link": "/leistungen"
+  },
+  {
+    "name": "SEO-Coaching",
+    "link": "/coaching"
+  },
+  {
+    "name": "Case Studies",
+    "link": "/casestudies"
+  },
+  {
+    "name": "Agentur",
+    "link": "/agentur"
+  },
+  {
+    "name": "Kontakt",
+    "link": "/kontakt"
+  }
+]

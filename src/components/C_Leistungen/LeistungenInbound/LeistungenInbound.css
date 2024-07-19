@@ -1,0 +1,33 @@
+.leistungen_inbound {
+  margin-top: var(--padding-s);
+  padding-block: var(--padding-l) var(--padding-xxl);
+  background: url("/img/leistungen_magnet_bg_blur.png") no-repeat;
+  background-size: contain;
+  background-position: top 0px right 10%;
+}
+
+.leistungen_inbound .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--padding-s);
+}
+
+.leistungen_inbound .content article {
+  background-color: var(--darker-bg-color);
+  border-radius: 40px;
+  border: 1.25px solid rgba(255, 255, 255, 0.05);
+  padding: var(--padding-s);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--padding-s);
+}
+
+.leistungen_inbound .content article h3 {
+  font-size: var(--font-size-m);
+  line-height: 115%;
+}
+
+.leistungen_inbound .content article img {
+  width: 31px;
+}

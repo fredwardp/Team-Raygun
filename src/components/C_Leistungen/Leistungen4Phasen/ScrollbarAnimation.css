@@ -1,0 +1,33 @@
+.scrollbar_animation_wrapper {
+  position: sticky;
+  bottom: 10vh;
+  top: 90vh;
+  z-index: 1000;
+  height: 4px;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.scrollbar_animation_wrapper .bg_wrapper {
+  height: 4px;
+  width: 100%;
+  background-color: #45465d;
+}
+
+.scrollbar_animation_wrapper .sticks_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticks_wrapper div {
+  height: 8px;
+  width: 2px;
+  background-color: #45465d;
+}
+
+.scrollbar_animation {
+  height: 4px;
+  width: 100%;
+
+  /* margin-top: 90vh; */
+}

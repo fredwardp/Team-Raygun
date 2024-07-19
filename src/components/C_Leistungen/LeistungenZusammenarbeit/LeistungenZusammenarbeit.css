@@ -1,0 +1,102 @@
+.leistungen_zusammenarbeit {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 1fr;
+  padding-bottom: var(--padding-xxl);
+  /* overflow: hidden; */
+}
+
+.leistungen_zusammenarbeit .heading_wrapper {
+  height: 100%;
+}
+
+.leistungen_zusammenarbeit h2 {
+  font-weight: 500;
+  line-height: 110%;
+  position: sticky;
+  top: 150px;
+}
+
+.leistungen_zusammenarbeit .scroll_animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.scroll_animation .circle {
+  border-radius: 100px;
+  width: 42px;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_gradient {
+  background: var(--accent-color-gradient);
+}
+
+.circle div {
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: var(--heading-color);
+  border: 5px solid var(--main-bg-color);
+}
+
+.scroll_animation .line {
+  height: 400px;
+  width: 4px;
+  background-color: #45465d;
+}
+
+.scroll_animation .color_gradient {
+  width: 4px;
+  height: 50vh;
+  position: fixed;
+  top: 0;
+  background: var(--accent-color-gradient);
+}
+
+.leistungen_zusammenarbeit .content {
+  display: flex;
+  flex-direction: column;
+  gap: 22%;
+  justify-content: space-between;
+}
+
+.leistungen_zusammenarbeit .content article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-xs);
+  position: relative;
+}
+
+.background_div {
+  position: absolute;
+  z-index: 1;
+  width: 6px;
+  background-color: var(--main-bg-color);
+  height: calc(240px + 10vw);
+  bottom: calc(-240px - 10vw);
+}
+
+.leistungen_zusammenarbeit .content article p:first-of-type {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 46px;
+  width: max-content;
+}
+
+.leistungen_zusammenarbeit .content article h3 {
+  font-weight: 500;
+  font-size: 24px;
+}

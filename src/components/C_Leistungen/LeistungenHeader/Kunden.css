@@ -1,0 +1,81 @@
+.kunden_sec {
+  position: relative;
+  z-index: 1;
+  background: url("/img/leistungen_kunden_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-block: 3%;
+  animation: ls-header-slide-in 2s linear;
+}
+
+@keyframes ls-header-slide-in {
+  0% {
+    opacity: 0.3;
+    transform: translateY(40px);
+  }
+  5% {
+    opacity: 0.3;
+    transform: translateY(40px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kunden_sec div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-s);
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation: ls-header-fade-in 2s ease-in forwards;
+}
+
+@keyframes ls-header-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  5% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  /* 30% {
+    opacity: 0;
+    transform: translateY(10px);
+  } */
+  65% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.kunden_sec h2 {
+  font-size: var(--font-size-xm);
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: center;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.kunden_sec article {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  width: 100%;
+  max-width: calc(1280px + 16%);
+  padding-inline: 8%;
+  margin-inline: auto;
+}
+
+.kunden_sec article img {
+  max-width: 15%;
+}

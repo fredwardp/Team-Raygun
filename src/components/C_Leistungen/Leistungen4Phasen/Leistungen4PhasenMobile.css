@@ -1,0 +1,39 @@
+.leistungen_phasen_mobile {
+  display: none;
+  flex-direction: column;
+  gap: 80px;
+  margin-block: var(--padding-xxl);
+}
+
+.leistungen_phasen_mobile .upper_content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.upper_content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.upper_content ul li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background-color: var(--darker-bg-color);
+  border-radius: 8px;
+}
+
+.upper_content ul li p {
+  color: var(--heading-color);
+}
+
+.phasen_dropdown_block {
+  border-top: 1px solid var(--brighter-bg-color);
+}
+
+.phasen_dropdown_block .upper {
+  padding-block: 12px;
+}

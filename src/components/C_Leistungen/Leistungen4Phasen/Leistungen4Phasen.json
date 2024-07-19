@@ -1,0 +1,232 @@
+[
+  {
+    "content": {
+      "h2": "Die 4 Phasen der Customer-Journey",
+      "number": null,
+      "h3": null,
+      "p": "Wir ziehen in jeder Phase die richtigen Personen an, indem wir sie zum optimalen Zeitpunkt mit relevanten Inhalten ansprechen – das heißt genau dann, wenn sie danach suchen."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        }
+      ],
+      "innerText": "rgba(255, 255, 255, 0.1)",
+      "innerBg": "#1A1B27",
+      "innerStroke": "rgba(255,255,255,0.1)"
+    }
+  },
+  {
+    "content": {
+      "h2": null,
+      "number": "01",
+      "h3": "Interessenten anziehen",
+      "p": "In der ersten Phase nutzen wir die vorhandene Nachfrage der Zielgruppe und wecken das Interesse. Wir lenken ihre Aufmerksamkeit durch leicht zugängliche und hilfreiche Inhalte auf uns."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        }
+      ],
+      "innerText": "rgba(255, 255, 255, 0.1)",
+      "innerBg": "#1A1B27",
+      "innerStroke": "rgba(255,255,255,0.1)"
+    }
+  },
+  {
+    "content": {
+      "h2": null,
+      "number": "02",
+      "h3": "Überzeugungsarbeit leisten",
+      "p": "Ist die Zielgruppe erst einmal bei uns, werden wir in der zweiten Phase deren Erwartungen übertreffen - auf allen Ebenen. Wir werden zur Nr. 1 Anlaufstelle für unser Thema."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        }
+      ],
+      "innerText": "rgba(255, 255, 255, 0.1)",
+      "innerBg": "#1A1B27",
+      "innerStroke": "rgba(255,255,255,0.1)"
+    }
+  },
+  {
+    "content": {
+      "h2": null,
+      "number": "03",
+      "h3": "Kaufbereitschaft steigern",
+      "p": "Die Zielgruppe ist zufrieden und begeistert und wir haben einen Fuß in der Tür. Jetzt können wir in Phase 3 die Aufmerksamkeit auf unsere Leistungen und Angebote lenken."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "rgba(255, 255, 255, 0.1)",
+          "midBgLight": "#1A1B27",
+          "midBgDark": "#1A1B27"
+        }
+      ],
+      "innerText": "rgba(255, 255, 255, 0.1)",
+      "innerBg": "#1A1B27",
+      "innerStroke": "rgba(255,255,255,0.1)"
+    }
+  },
+  {
+    "content": {
+      "h2": null,
+      "number": "04",
+      "h3": "Loyalität aufbauen",
+      "p": "Zufriedene Kunden kommen wieder. Dazu bleiben wir im Gedächtnis. Neue Inhalte, neuer Mehrwert. Immer genau dort, wo die Zielgruppe sie braucht."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        }
+      ],
+      "innerText": "rgba(255, 255, 255, 0.1)",
+      "innerBg": "#1A1B27",
+      "innerStroke": "rgba(255,255,255,0.1)"
+    }
+  },
+  {
+    "content": {
+      "h2": "Der Kreislaufeffekt",
+      "number": null,
+      "h3": null,
+      "p": "Das Flywheel erlangt erst dadurch seine Eigendynamik, dass es bei der Zielgruppe bestimmte Impulse auslöst. Impulse in Form von positiven Erfahrungen, geteilten Inhalten, Kundenzufriedenheit, positiven Bewertungen und Weiterempfehlungen.",
+      "p2": "Eine positive Erfahrung bleibt im Gedächtnis. Ein geteilter Inhalt bringt Reichweite. Eine hohe Kundenzufriedenheit spricht sich herum.Eine positive Bewertung baut Vertrauen auf. Eine Weiterempfehlung bringt einen neuen Kunden."
+    },
+    "flyWheel": {
+      "outerText": "transparent",
+      "outerArrow": "transparent",
+      "outerStroke": "transparent",
+      "midArea": [
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        },
+        {
+          "midText": "#ffffff",
+          "midBgLight": "#808DFF",
+          "midBgDark": "#343B75"
+        }
+      ],
+      "innerText": "#1A1B27",
+      "innerBg": "#90FFCA",
+      "innerStroke": "rgba(0,0,0,0.1)"
+    }
+  }
+]

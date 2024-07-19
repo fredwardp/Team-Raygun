@@ -1,0 +1,156 @@
+.question_block {
+  background: linear-gradient(
+    270deg,
+    rgba(142, 162, 188, 0) 0%,
+    rgba(142, 162, 188, 0.2) 50%,
+    rgba(142, 162, 188, 0) 100%
+  );
+  padding-block: 0.625px;
+  transition: all 0.3s ease;
+}
+.question_block:first-of-type {
+  background: transparent;
+  /* padding-bottom: 0.625px; */
+  padding-block: unset;
+}
+
+.question_block .inner {
+  padding-block: 35px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.opened_inner {
+  animation: openInner 0.5s forwards;
+}
+
+@keyframes openInner {
+  0% {
+    padding-bottom: 35px;
+  }
+  100% {
+    padding-bottom: var(--padding-xl);
+  }
+}
+
+.close_inner {
+  animation: closeInner 0.5s forwards;
+}
+
+@keyframes closeInner {
+  0% {
+    padding-bottom: var(--padding-xl);
+  }
+  100% {
+    padding-bottom: 35px;
+  }
+}
+
+.question_block:first-of-type .inner {
+  background-color: unset;
+}
+
+.question_block .inner h3 {
+  font-size: var(--font-size-xm);
+  font-weight: 500;
+}
+.question_block .inner p {
+  line-height: 24px;
+  margin-top: 16px;
+  transition: all 0.3s ease;
+  position: absolute;
+  max-width: 60ch;
+  top: 70px;
+}
+
+.show_answer {
+  animation: openanswer 0.6s;
+}
+
+@keyframes openanswer {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.hide_answer {
+  animation: closeanswer 0.4s forwards;
+}
+
+@keyframes closeanswer {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  99% {
+    opacity: 0;
+    transform: translateY(-30px);
+    display: inline;
+  }
+  100% {
+    display: none;
+  }
+}
+
+.faq_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--padding-xs);
+}
+
+.answer_toggle {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: rgba(142, 162, 188, 0.1);
+  border: 1px solid rgba(142, 162, 188, 0.35);
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.answer_toggle .linear {
+  height: 2px;
+  width: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--text-color);
+}
+
+.answer_toggle .horizontal {
+  height: 2px;
+  width: 14px;
+  position: relative;
+  z-index: 2;
+}
+
+.answer_toggle .open {
+  background-color: var(--text-color);
+  transform: rotate(-90deg);
+  transition: all 0.5s ease;
+}
+
+.answer_toggle .closed {
+  background-color: var(--error-color);
+  transform: rotate(0deg);
+  animation: rotate 0.3s;
+  transition: all 0.5s ease;
+}
+
+/* @keyframes rotate {
+    0
+    
+} */

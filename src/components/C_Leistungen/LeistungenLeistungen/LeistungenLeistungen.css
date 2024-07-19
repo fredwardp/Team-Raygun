@@ -1,0 +1,59 @@
+.leistungen_lst {
+  margin-top: var(--padding-m);
+  padding-block: 180px var(--padding-xxl);
+}
+
+.leistungen_lst .heading {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: var(--padding-s);
+  margin-bottom: var(--padding-xl);
+}
+
+.leistungen_lst .heading p {
+  line-height: 145%;
+  font-size: var(--font-size-s);
+}
+
+.leistungen_lst .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: var(--padding-s);
+}
+
+.leistungen_lst .content article {
+  background-color: var(--darker-bg-color);
+  border: 1.25px solid rgba(255, 255, 255, 0.05);
+  border-radius: 40px;
+  padding: var(--padding-xm);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--padding-s);
+}
+
+.leistungen_lst .content article div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: var(--padding-s);
+}
+
+.leistungen_lst .content article div p {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: var(--font-size-m);
+  line-height: 115%;
+}
+
+.leistungen_lst .content h3 {
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  line-height: 115%;
+}

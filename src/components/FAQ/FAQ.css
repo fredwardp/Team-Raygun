@@ -1,0 +1,14 @@
+.faq {
+  background: url("/img/leistungen_magnet_bg_blur.png"), var(--main-bg-color);
+  background-size: contain;
+  background-position: center 80px;
+  background-repeat: no-repeat;
+  padding-block: var(--padding-xxl);
+}
+
+.faq .container {
+  max-width: 840px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}

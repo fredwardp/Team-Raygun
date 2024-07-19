@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Familjen_Grotesk;
+  src: url("/font/familjen_grotesk/FamiljenGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/font/inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+:root {
+  --main-font: Familjen_Grotesk;
+  --text-font: Inter;
+
+  --font-size-xxl: clamp(2.25rem, 1.4318rem + 4.0909vw, 4.5rem);
+  --font-size-xl: clamp(2rem, 1.6364rem + 1.8182vw, 3rem);
+  --font-size-l: clamp(1.25rem, 1.0466rem + 1.0169vw, 2rem);
+  --font-size-m: clamp(1.25rem, 1.1591rem + 0.4545vw, 1.5rem);
+  --font-size-xm: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
+  --font-size-s: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem);
+  --font-size-xs: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem);
+  --font-size-xxs: 14px;
+
+  --padding-xxl: 240px;
+  --padding-xl: 120px;
+  --padding-l: 80px;
+  --padding-m: 60px;
+  --padding-xm: 48px;
+  --padding-s: 40px;
+  --padding-xs: 24px;
+  --padding-xxs: 20px;
+
+  --heading-color: #ffffff;
+  --text-color: #8ea2bc;
+  --text-gradient-color: #dbdeff;
+  --text-contrast-color: #070810;
+
+  --accent-color-1: #90ffca;
+  --accent-color-2: #808dff;
+  --accent-color-gradient: linear-gradient(
+    90deg,
+    var(--accent-color-1),
+    var(--accent-color-2)
+  );
+  --error-color: #e64d84;
+
+  --main-bg-color: #070810;
+  --brighter-bg-color: rgba(53, 55, 74, 0.4);
+  --darker-bg-color: #1a1b27;
+  --btn-bg-color: #080911;
+}
+
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  color: var(--heading-color);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+p {
+  font-family: var(--text-font);
+  font-size: var(--font-size-xs);
+  color: var(--text-color);
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  line-height: 110%;
+}
+
+h2 span {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+header {
+  min-height: 100svh;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.btn_reg {
+  background-color: var(--heading-color);
+  color: var(--text-contrast-color);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+}
+
+.container {
+  max-width: calc(1280px + 12%);
+  padding-inline: 6%;
+  margin-inline: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  transition: all 0.3s ease;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-gradient-color);
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --padding-xxl: 160px;
+    --padding-xl: 80px;
+    --padding-l: 80px;
+    --padding-m: 60px;
+    --padding-xs: 24px;
+    --padding-xxs: 20px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  :root {
+    --padding-xxl: 160px;
+    --padding-xl: 80px;
+    --padding-l: 80px;
+    --padding-m: 60px;
+    --padding-xm: 24px;
+    --padding-s: 24px;
+    --padding-xs: 24px;
+    --padding-xxs: 20px;
+  }
+}

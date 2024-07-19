@@ -1,0 +1,84 @@
+.footer_content_wrapper {
+  display: flex;
+  gap: var(--padding-s);
+  margin-bottom: var(--padding-xxl);
+}
+
+.footer_logo {
+  width: calc(50% - 20px);
+}
+
+.footer_content {
+  width: calc(50% - 20px);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--padding-s);
+}
+
+.footer_content article {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer_content article h2 {
+  font-size: var(--font-size-xxs);
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: var(--padding-xxs);
+}
+
+.footer_content article p {
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.footer_content article a {
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-family: var(--text-font);
+  color: var(--heading-color);
+}
+
+.footer_adress {
+  max-width: 20ch;
+}
+
+.footer_phone {
+  background-color: var(--darker-bg-color);
+  padding: 18px var(--padding-xs);
+  border-radius: 12px;
+  margin-bottom: var(--padding-xxs);
+}
+
+.footer_phone .phone_number {
+  font-size: var(--font-size-s);
+}
+
+.footer_phone .phone_infos {
+  color: var(--text-color);
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: var(--padding-l);
+}
+
+.footer_bottom p {
+  font-size: 14px;
+}
+
+.footer_bottom div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--padding-xl);
+}
+
+.footer_bottom div a {
+  color: var(--text-color);
+  font-size: 14px;
+}
