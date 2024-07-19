@@ -244,8 +244,10 @@
     padding: 40px;
   }
   .partner_infos img {
-    height: 48px;
-    width: 48px;
+    min-height: 48px;
+    min-width: 48px;
+    max-height: 48px;
+    max-width: 48px;
   }
   footer .footer_content_wrapper {
     margin-bottom: 80px;
