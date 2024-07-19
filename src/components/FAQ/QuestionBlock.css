@@ -66,7 +66,7 @@
 
 .show_answer {
   animation: openanswer 0.6s forwards;
-  opacity: 0;
+  opacity: 1;
 }
 
 @keyframes openanswer {
@@ -87,19 +87,14 @@
 
 @keyframes closeanswer {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(0);
   }
-  99% {
+  100% {
     opacity: 0;
     transform: translateY(-30px);
-    display: inline;
-  }
-  100% {
-    display: none;
   }
 }
-
 .faq_content {
   display: flex;
   justify-content: space-between;
