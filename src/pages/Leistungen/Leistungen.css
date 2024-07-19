@@ -144,6 +144,10 @@
     width: 48px;
     height: 48px;
   }
+  .leistungen_header_content {
+    gap: 40px;
+    padding-top: 10%;
+  }
   .leistungen_lst .content article img {
     width: 40px;
     height: 40px;
@@ -184,7 +188,7 @@
     grid-template-columns: 1fr;
   }
   .kunden_sec {
-    padding-block: 8%;
+    padding-block: 6%;
     overflow: hidden;
   }
   .kunden_sec article {
@@ -205,9 +209,9 @@
       transform: translateX(-50%);
     }
   }
-  .kunden_sec h2 {
+  /* .kunden_sec h2 {
     margin-bottom: 10px;
-  }
+  } */
   .kunden_sec article img {
     width: 100px;
     max-width: unset;
