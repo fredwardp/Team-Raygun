@@ -58,6 +58,7 @@
 .question_block .inner p {
   line-height: 24px;
   margin-top: 16px;
+  transition: all 0.3s ease;
   position: absolute;
   max-width: 60ch;
   top: 60px;
@@ -65,6 +66,7 @@
 
 .show_answer {
   animation: openanswer 0.6s forwards;
+  opacity: 0;
 }
 
 @keyframes openanswer {
@@ -80,17 +82,14 @@
 
 .hide_answer {
   animation: closeanswer 0.4s forwards;
+  opacity: 0;
 }
 
 @keyframes closeanswer {
   0% {
-    opacity: 1;
+    opacity: 0;
     transform: translateY(0);
   }
-  /* 1% {
-    opacity: 1;
-    transform: translateY(0);
-  } */
   99% {
     opacity: 0;
     transform: translateY(-30px);
