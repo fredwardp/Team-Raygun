@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PotenzialAnalyseIcon from "../../assets/Svg/PotenzialAnalyseIcon";
 import RightArrow from "../../assets/Svg/RightArrow";
 import "./PotenzialAnalyse.css";
@@ -17,7 +18,9 @@ const PotenzialAnalyse = () => {
           <h2>
             Ihre kostenfreie <br /> SEO-Potenzialanalyse
           </h2>
-          <button className="btn">Kontakt aufnehmen</button>
+          <Link to="/contact" className="btn">
+            Kontakt aufnehmen
+          </Link>
         </article>
       </div>
     </section>

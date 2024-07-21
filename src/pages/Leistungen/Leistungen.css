@@ -105,6 +105,16 @@
       padding-bottom: 35px;
     }
   }
+  .answer_toggle {
+    min-width: 32px;
+    min-height: 32px;
+  }
+  .answer_toggle .linear {
+    width: 12px;
+  }
+  .answer_toggle .horizontal {
+    width: 12px;
+  }
   .leistungen_magnet {
     background-size: 200%;
     background-position: top center;
@@ -116,6 +126,9 @@
   .leistungen_fürwen {
     background-size: 200%;
     background-position: top 60px center;
+  }
+  .leistungen_fürwen .content {
+    grid-template-columns: 1fr;
   }
   .header_gradient .link_wrapper {
     flex-wrap: wrap;
@@ -270,5 +283,37 @@
   }
   .footer_bottom p {
     margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .sprungbtn_wrapper {
+    gap: 8px;
+  }
+  .sprungbtn {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+  .leistungen_phasen_mobile .phasen_dropdown_block .close_inner {
+    animation: closeInnerMobileSmall 0.5s forwards !important;
+  }
+  .leistungen_phasen_mobile .phasen_dropdown_block .opened_inner {
+    animation: openInnerMobileSmall 0.5s forwards !important;
+  }
+  @keyframes openInnerMobileSmall {
+    0% {
+      padding-bottom: 0;
+    }
+    100% {
+      padding-bottom: 150px;
+    }
+  }
+  @keyframes closeInnerMobileSmall {
+    0% {
+      padding-bottom: 150px;
+    }
+    100% {
+      padding-bottom: 0px;
+    }
   }
 }

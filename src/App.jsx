@@ -10,12 +10,12 @@ import Datenschutz from "./pages/Datenschutz";
 import Impressum from "./pages/Impressum";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
-import ScrollToTop from "./ScrollToTop"; // Import ScrollToTop component
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop /> // Include ScrollToTop component
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />

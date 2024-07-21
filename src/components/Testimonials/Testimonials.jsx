@@ -7,7 +7,7 @@ const Testimonials = () => {
   const [slideWidth, setSlideWidth] = useState(0);
   const [slideCounter, setSlideCounter] = useState(19);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1100);
-  console.log(window);
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 1100);
@@ -28,8 +28,7 @@ const Testimonials = () => {
       setSlideCounter((prev) => prev - 1);
     }
   };
-  console.log(slideCounter);
-  console.log(content.length);
+
   return (
     <section className="testimonials">
       <div className="top_stroke"></div>
