@@ -64,7 +64,7 @@
 
 .agentur_leads .right img:first-of-type {
   max-width: 50%;
-  animation: rotate 10s linear infinite;
+  animation: home-rotate 10s linear infinite;
 }
 
 .agentur_leads .right img:last-of-type {

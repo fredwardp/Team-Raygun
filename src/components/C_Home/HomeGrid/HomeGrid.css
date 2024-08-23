@@ -91,15 +91,15 @@
 }
 .item1 .right img:first-of-type {
   max-width: 50%;
-  animation: rotate 10s linear infinite;
+  animation: home-rotate 10s linear infinite;
 }
 
 .item1 .right img:last-of-type {
   max-width: 60%;
-  animation: rotate 20s linear infinite;
+  animation: home-rotate 20s linear infinite;
 }
 
-@keyframes rotate {
+@keyframes home-rotate {
   from {
     transform: rotate(0deg);
   }
