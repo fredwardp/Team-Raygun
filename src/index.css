@@ -11,14 +11,14 @@
 :root {
   --main-font: Familjen_Grotesk;
   --text-font: Inter;
-
-  --font-size-xxl: clamp(2.25rem, 1.4318rem + 4.0909vw, 4.5rem);
-  --font-size-xl: clamp(2rem, 1.6364rem + 1.8182vw, 3rem);
-  --font-size-l: clamp(1.25rem, 1.0466rem + 1.0169vw, 2rem);
-  --font-size-m: clamp(1.25rem, 1.1591rem + 0.4545vw, 1.5rem);
-  --font-size-xm: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
-  --font-size-s: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem);
-  --font-size-xs: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem);
+  --font-size-3xl: 160px;
+  --font-size-xxl: clamp(2.25rem, 1.4318rem + 4.0909vw, 4.5rem); /* 72px*/
+  --font-size-xl: clamp(2rem, 1.6364rem + 1.8182vw, 3rem); /* 48px*/
+  --font-size-l: clamp(1.25rem, 1.0466rem + 1.0169vw, 2rem); /* 32px*/
+  --font-size-m: clamp(1.25rem, 1.1591rem + 0.4545vw, 1.5rem); /* 24px*/
+  --font-size-xm: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem); /* 20px*/
+  --font-size-s: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem); /* 18px*/
+  --font-size-xs: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem); /* 16px*/
   --font-size-xxs: 14px;
 
   --padding-xxl: 240px;
@@ -61,6 +61,11 @@
 
 body {
   background-color: var(--main-bg-color);
+}
+
+img,
+svg {
+  max-width: 100%;
 }
 
 p {
@@ -108,6 +113,20 @@ button {
   color: var(--text-contrast-color);
   font-size: var(--font-size-s);
   font-weight: 600;
+}
+
+.btn_white_gradient {
+  background: url(/img/Button-Shine.png), var(--heading-color);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding: 18px var(--padding-xs);
+  border-radius: 100px;
+  color: var(--main-bg-color);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-family: var(--main-font);
+  width: max-content;
 }
 
 .container {

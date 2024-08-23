@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Maximilian Pawelzik",
+    "profession": "Gründer & SEO-Manager",
+    "description": "“Seit 2017 fasziniert mich alles rund um SEO und Google. In 2022 bin ich zwei Jahre als Digitaler Nomade um die Welt gereist und habe dabei mein Business aufgebaut. Das war eine der besten Entscheidungen ever.”",
+    "img": "/img/Team/team_img_1.png",
+    "bulletPoints": [
+      {
+        "title": "🧠 Genius Zone",
+        "text": "SEO Strategie und technische Audits"
+      },
+      {
+        "title": "📌 Favorite Place",
+        "text": "Kuala Lumpur, Malaysia"
+      },
+      {
+        "title": "🎥 Lieblingsserie/ Film",
+        "text": "Dragon Ball/ Harry Potter"
+      }
+    ]
+  },
+  {
+    "name": "Filiz Dönmez",
+    "profession": "Projektmanagement & Acquisition",
+    "description": "“Motivierte und vielseitige virtuelle Assistentin mit einem abgeschlossenen Lehramtsstudium und umfassender Erfahrung in der Kundenbetreuung, Assistenz sowie der Fremdsprachen-korrespondenz. Neben meiner beruflichen Tätigkeit manage ich erfolgreich einen Haushalt mit zwei Kindern, zwei Katzen und zwei Schildkröten.”",
+    "img": "/img/Team/team_img_2.png",
+    "bulletPoints": [
+      {
+        "title": "🧠 Genius Zone",
+        "text": "Betreuung von Social Media Kanälen"
+      },
+      {
+        "title": "📌 Favorite Place",
+        "text": "Strand"
+      },
+      {
+        "title": "✍🏻 Lieblings Autor",
+        "text": "Wolfgang Hohlbein"
+      }
+    ]
+  },
+  {
+    "name": "Richard Roth",
+    "profession": "SEA & SEO Berater",
+    "description": "“Neugieriger Sport-Enthusiast, stets auf der Suche nach neuen Abenteuern und Herausforderungen. Momente > Besitztümer”",
+    "img": "/img/Team/team_img_3.png",
+    "bulletPoints": [
+      {
+        "title": "🧠 Genius Zone",
+        "text": "Keyword Recherche, Aufbau von SEO Strukturen"
+      },
+      {
+        "title": "📌 Favorite Place",
+        "text": "Buenos Aires, Argentinien"
+      },
+      {
+        "title": "✍🏻 Lieblings Autor/ Sportler",
+        "text": "David Googins"
+      }
+    ]
+  },
+  {
+    "name": "Kim Tinnemeyer",
+    "profession": "Webdesigner & Gründer dock7",
+    "description": "“Vor 7 Jahren in Südostasien verliebt, ausgewandert und ein neues Leben in Thailand aufgebaut. In meiner Freizeit liebe ich es Motarrad-Touren zu machen und durch die Berge Thailands zu hiken. Lieblingszitat: Nur angewandtes Wissen ist Macht. - Napoleon Hill”",
+    "img": "/img/Team/team_img_4.png",
+    "bulletPoints": [
+      {
+        "title": "🧠 Genius Zone",
+        "text": "Das richtige Zusammenspiel von kreativen Design & UX für Webseiten und Landingpages, die in der Praxis wirklich konvertieren. "
+      },
+      {
+        "title": "📌 Favorite Place",
+        "text": "Chiang Mai, Thailand"
+      },
+      {
+        "title": "🎥 Lieblingsserie/ Film",
+        "text": "Quentin Taratino"
+      }
+    ]
+  }
+]

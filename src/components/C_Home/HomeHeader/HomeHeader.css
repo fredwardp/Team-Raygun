@@ -1,0 +1,181 @@
+.home_header {
+  display: flex;
+  background: url("/img/leistungen_hero_bg.png"), url(/img/home_hero_bg.svg),
+    url(/img/home_hero_shine_bg.svg);
+  background-size: cover, contain, contain;
+  background-position: bottom -50vh center, center bottom -15vh,
+    center bottom -220px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  /* animation: ls-header-bg 2s linear forwards; */
+}
+
+/* @keyframes ls-header-bg {
+  0% {
+    background: url("/img/leistungen_hero_bg.png");
+    background-size: cover;
+    background-position: bottom -50vh center, bottom -50vh center, center;
+    background-repeat: no-repeat;
+  }
+  20% {
+    background: url("/img/leistungen_hero_elipse_big.png"),
+      url("/img/leistungen_hero_elipse_small.png"),
+      url("/img/leistungen_hero_bg.png");
+    background-size: cover;
+    background-position: bottom -50vh center, bottom -50vh center, center;
+    background-repeat: no-repeat;
+  }
+  80% {
+    background: url("/img/leistungen_hero_elipse_big.png"),
+      url("/img/leistungen_hero_elipse_small.png"),
+      url("/img/leistungen_hero_bg.png");
+    background-size: cover;
+    background-position: bottom -28vh center, bottom -28vh center, center;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url("/img/leistungen_hero_elipse_big.png"),
+      url("/img/leistungen_hero_elipse_small.png"),
+      url("/img/leistungen_hero_bg.png");
+    background-size: cover;
+    background-position: bottom -28vh center, bottom -28vh center, center;
+    background-repeat: no-repeat;
+  }
+} */
+
+.section.out-of-viewport {
+  opacity: 0.2; /* Adjust the opacity value as needed */
+}
+
+.home_header .height_regulator {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.home_header_content {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 8%;
+  animation: ls-header-content 2.2s ease-in forwards;
+}
+
+@keyframes ls-header-content {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home_header h1 {
+  font-size: var(--font-size-3xl);
+  text-align: center;
+  font-weight: 500;
+  line-height: 110%;
+  max-width: 23ch;
+  background: linear-gradient(
+      270deg,
+      rgba(128, 141, 255, 0.3) 0%,
+      rgba(144, 255, 202, 0.3) 100%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.home_header_content p {
+  font-size: var(--font-size-l);
+  max-width: 35ch;
+  text-align: center;
+  color: var(--heading-color);
+  margin-bottom: 12px;
+}
+
+.home_header_btns {
+  display: flex;
+  gap: 24px;
+}
+
+.home_header .btn_gradient_bg {
+  background: linear-gradient(
+    270deg,
+    rgba(128, 141, 255, 0.2) 0%,
+    rgba(144, 255, 202, 0.2) 100%
+  );
+  border-radius: 100px;
+  padding: 8px;
+}
+.home_header .btn_gradient_bg:nth-of-type(2) {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+}
+
+.btn_gradient {
+  background: url("/img/Button-Shine.png"), var(--heading-color);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 100px;
+  color: var(--main-bg-color);
+  font-weight: 600;
+  font-size: var(--font-size-s);
+  height: 64px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_dark {
+  background: var(--main-bg-color);
+  color: var(--heading-color);
+}
+
+.sprungbtn_wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--padding-s);
+  margin-bottom: -15px;
+}
+
+.sprungbtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px var(--padding-s);
+  background-color: rgba(7, 8, 16, 0.01);
+  border-radius: 100px;
+  border: solid 1px rgba(255, 255, 255, 0.11);
+  font-weight: 500;
+  font-size: var(--font-size-xs);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.header_bg_gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(transparent, var(--main-bg-color));
+  z-index: 0;
+}

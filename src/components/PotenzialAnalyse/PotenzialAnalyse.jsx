@@ -18,7 +18,7 @@ const PotenzialAnalyse = () => {
           <h2>
             Ihre kostenfreie <br /> SEO-Potenzialanalyse
           </h2>
-          <Link to="/contact" className="btn">
+          <Link to="/kontakt/potenzialanalyse" className="btn">
             Kontakt aufnehmen
           </Link>
         </article>

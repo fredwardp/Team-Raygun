@@ -22,7 +22,7 @@ function App() {
         <Route path="/agentur" element={<About />} />
         <Route path="/casestudies" element={<CaseStudies />} />
         <Route path="/coaching" element={<Coaching />} />
-        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/kontakt/:type" element={<Contact />} />
         <Route path="/leistungen" element={<Leistungen />} />
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/impressum" element={<Impressum />} />

@@ -1,0 +1,84 @@
+.wallgrid {
+  padding-block: 120px 240px;
+}
+
+.wallgrid .bg_wrapper {
+  background: url("/img/leistungen_magnet_bg_blur.png") no-repeat;
+  background-size: 80%;
+  background-position: top -20px center;
+}
+
+.wallgrid .bg_wrapper .header_gradient {
+  margin: unset;
+  padding-block: var(--padding-xl);
+  margin-bottom: 40px;
+}
+.wallgrid .bg_wrapper .header_gradient h2 {
+  max-width: 25ch;
+}
+.wallgrid .grid {
+  background: url(/img/wall_grid_bg_shinesvg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid .row {
+  display: flex;
+  gap: 4px;
+}
+
+.grid .row div {
+  min-height: 320px;
+  width: 480px;
+  background-color: var(--main-bg-color);
+}
+
+.min_width {
+  min-width: 480px;
+  padding: var(--padding-xm);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.min_width article {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.min_width article h3 {
+  font-size: var(--font-size-l);
+  background: linear-gradient(
+      360deg,
+      rgba(128, 141, 255, 0.2) 0%,
+      rgba(144, 255, 202, 0.2) 100%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: max-content;
+}
+
+.grid .shadow_effect {
+  position: absolute;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(var(--main-bg-color), transparent);
+}
+
+.grid .bottom {
+  bottom: -2px;
+  top: unset;
+  height: 200px;
+  background: linear-gradient(transparent, var(--main-bg-color));
+}

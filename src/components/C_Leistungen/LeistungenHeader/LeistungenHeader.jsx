@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./LeistungenHeader.css"; // Ensure you include your CSS file here
+import "./LeistungenHeader.css";
 import { Link } from "react-router-dom";
 import Kunden from "./Kunden";
 

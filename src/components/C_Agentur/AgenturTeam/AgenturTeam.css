@@ -1,0 +1,94 @@
+.agentur_team {
+  padding-block: var(--padding-xxl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-xl);
+}
+
+.team_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-xm);
+}
+
+.team_wrapper .bg_wrapper {
+  padding: 1px;
+  background: radial-gradient(
+    50% 100% at 50% 0%,
+    rgba(142, 162, 188, 0.5) 0%,
+    rgba(142, 162, 188, 0.2) 100%
+  );
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.member_wrapper {
+  padding: var(--padding-xm);
+  display: flex;
+  gap: var(--padding-l);
+  background: radial-gradient(
+      50% 100% at 50% 0%,
+      rgba(142, 162, 188, 0.15) 0%,
+      rgba(142, 162, 188, 0) 100%
+    ),
+    var(--main-bg-color);
+  border-radius: 24px;
+}
+
+.member_wrapper img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.member_wrapper article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.member_wrapper article h3 {
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.member_wrapper article span {
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.description {
+  font-size: 28px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 120%;
+  color: var(--heading-color);
+}
+
+.bullet_points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-xxs);
+}
+
+.bullet_points div {
+  display: flex;
+  gap: 4px;
+}
+
+.bullet_points span {
+  font-size: var(--font-size-xm);
+  font-weight: 400;
+  line-height: 110%;
+  color: var(--text-color);
+}
+
+.bullet_points p {
+  color: var(--heading-color);
+  text-wrap: wrap;
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  line-height: 110%;
+}

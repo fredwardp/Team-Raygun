@@ -1,0 +1,73 @@
+.agentur_leads {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block: var(--padding-xl) var(--padding-xxl);
+  padding: var(--padding-xm);
+  border-radius: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  background: url(/img/home_rad_bg.png),
+    linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
+  background-size: 55%, cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  min-height: 480px;
+}
+
+.agentur_leads article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.agentur_leads article h2 {
+  font-size: var(--font-size-l);
+  margin-bottom: 40px;
+}
+
+.agentur_leads article a {
+  background: linear-gradient(
+      270deg,
+      rgba(128, 141, 255, 0.6) 0%,
+      rgba(144, 255, 202, 0.6) 100%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.agentur_leads .right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agentur_leads .right div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agentur_leads .right img {
+  max-width: 100%;
+  position: absolute;
+}
+
+.agentur_leads .right img:first-of-type {
+  max-width: 50%;
+  animation: rotate 10s linear infinite;
+}
+
+.agentur_leads .right img:last-of-type {
+  max-width: 60%;
+  animation: rotate 20s linear infinite;
+}

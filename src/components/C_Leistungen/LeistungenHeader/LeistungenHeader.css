@@ -48,7 +48,7 @@
   opacity: 0.2; /* Adjust the opacity value as needed */
 }
 
-.leistungen_header .height_regulator {
+.height_regulator {
   flex: 1;
   display: flex;
   align-items: center;

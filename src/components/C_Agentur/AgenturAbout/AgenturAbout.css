@@ -1,0 +1,33 @@
+.agentur_about {
+  padding-block: var(--padding-xxl);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background: url(/img/agentur_about_bg.svg) no-repeat;
+  background-size: contain;
+  background-position: right 110px;
+}
+
+.agentur_about .img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agentur_about .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--padding-xm);
+  padding-block: 40px;
+}
+
+.agentur_about h2 {
+  line-height: 70.4px;
+  font-size: 64px;
+}
+
+.agentur_about p {
+  font-size: var(--font-size-xm);
+  line-height: 135%;
+}
