@@ -1,0 +1,63 @@
+.coaching_header {
+  display: flex;
+  background: url("/img/leistungen_hero_bg.png");
+  background-size: cover;
+  background-position: bottom -50vh center, bottom -50vh center, center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  animation: ls-header-bg 2s linear forwards;
+}
+
+.coaching_header_content {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 8%;
+  animation: ls-header-content 2.2s ease-in forwards;
+}
+
+.coaching_header h1 {
+  font-size: var(--font-size-xxl);
+  text-align: center;
+  font-weight: 500;
+  line-height: 110%;
+  max-width: 28ch;
+  color: var(--heading-color);
+}
+
+.coaching_sub {
+  font-family: var(--main-font);
+  font-size: var(--font-size-m);
+  text-align: center;
+  max-width: 56ch;
+}
+
+.coaching_header .btn_gradient_bg {
+  background: linear-gradient(
+    270deg,
+    rgba(128, 141, 255, 0.2) 0%,
+    rgba(144, 255, 202, 0.2) 100%
+  );
+  border-radius: 100px;
+  padding: 8px;
+}
+
+.coaching_header .btn_gradient {
+  background: url("/img/Button-Shine.png"), var(--heading-color);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 100px;
+  color: var(--main-bg-color);
+  font-weight: 600;
+  font-size: var(--font-size-s);
+  height: 64px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

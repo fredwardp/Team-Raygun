@@ -18,13 +18,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--padding-xm);
+  gap: var(--padding-s);
   padding-block: 40px;
 }
 
 .agentur_about h2 {
-  line-height: 70.4px;
+  line-height: 110%;
   font-size: 64px;
+  max-width: 12ch;
+  margin-top: -6px;
 }
 
 .agentur_about p {
