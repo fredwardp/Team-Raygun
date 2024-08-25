@@ -1,14 +1,16 @@
-import HeaderGradient from "../HeaderGradient/HeaderGradient";
-import "./WallGrid.css";
+import HeaderGradient from "../../HeaderGradient/HeaderGradient";
+import "../../WallGrid/WallGrid.css";
+import "./CoachingWhy.css";
 
-const WallGrid = () => {
+const CoachingWhy = () => {
   return (
-    <section className="wallgrid">
+    <section className="wallgrid coaching_wallgrid">
       <div className="container">
         <div className="bg_wrapper">
           <HeaderGradient
-            subHeading="Zusammenarbeit"
-            heading="Eine Zusammenarbeit, die keine Wünsche offen lässt."
+            subHeading="Warum Team Raygun"
+            heading="Was für uns spricht"
+            heading2="(oder warum wir so gut sind)"
           />
         </div>
 
@@ -18,44 +20,36 @@ const WallGrid = () => {
             <div></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
-                <h3>Gemeinsam</h3>
+                <img src="/img/coaching_who_star.svg" alt="" />
               </article>
-              <p>
-                “Team” ist nicht ohne Grund Teil unseres Namens. Denn auch
-                unsere Kunden sehen wir in erster Linie als Teampartner.
+              <p className="coaching_wall_p">
+                Professionelle SEO-Ausbildung in renommierten Agenturen
               </p>
             </div>
             <div style={{ minWidth: "600px" }}></div>
-            <div className="last"></div>
+            <div></div>
           </div>
           <div className="row">
             <div></div>
             <div className="min_width"></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
-                <h3>Langfristig</h3>
+                <h3 className="coaching_wall_h3">7 Jahre</h3>
               </article>
               <p>
-                Warum aufhören, wenn es hervorragend läuft? Andauernden Erfolg
-                erreichen wir durch beständige Zusammenarbeit.
+                Mittlerweile 7 Jahre Praxiserfahrung mit SEO, Content und
+                Websites
               </p>
             </div>
-            <div className="last"></div>
+            <div></div>
           </div>
           <div className="row">
             <div></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
-                <h3>Kreativ</h3>
+                <h3 className="coaching_wall_h3">3 Jahre</h3>
               </article>
-              <p>
-                Nicht nur kreative Lösungen suchen, sondern eine Umgebung
-                schaffen, in der Originalität und Einfallsreichtum entstehen
-                können.
-              </p>
+              <p>Seit über 3 Jahren selbstständig als SEO-Manager</p>
             </div>
             <div></div>
           </div>
@@ -64,17 +58,17 @@ const WallGrid = () => {
             <div style={{ minWidth: "440px" }}></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
-                <h3>Flexibel</h3>
+                <h3 className="coaching_wall_h3">20</h3>
+                <img src="/img/coaching_why_plus.svg" alt="" />
               </article>
               <p>
                 Anpassungsfähig mit langfristiger Strategie. Flexible Gestaltung
                 der Zusammenarbeit auch unter sich ändernden Bedingungen.
               </p>
             </div>
-            <div className="last"></div>
+            <div></div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div style={{ minWidth: "280px" }}></div>
             <div className="min_width">
               <article>
@@ -87,8 +81,8 @@ const WallGrid = () => {
               </p>
             </div>
             <div style={{ minWidth: "440px" }}></div>
-            <div className="last"></div>
-          </div>
+            <div></div>
+          </div> */}
           <div className="shadow_effect bottom"></div>
         </div>
       </div>
@@ -96,4 +90,4 @@ const WallGrid = () => {
   );
 };
 
-export default WallGrid;
+export default CoachingWhy;

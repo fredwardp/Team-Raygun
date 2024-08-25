@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import content from "./Zusammenarbeit.json";
 import Leistungen4Phasen from "../../components/C_Leistungen/Leistungen4Phasen/Leistungen4Phasen";
 import LeistungenCJ from "../../components/C_Leistungen/LeistungenCJ/LeistungenCJ";
 import LeistungenFürWen from "../../components/C_Leistungen/LeistungenFürWen/LeistungenFürWen";
@@ -43,7 +44,10 @@ const Leistungen = () => {
         <Leistungen4Phasen />
         <Leistungen4PhasenMobile />
         <LeistungenFürWen />
-        <LeistungenZusammenarbeit />
+        <LeistungenZusammenarbeit
+          content={content}
+          heading="So läuft die Zusammenarbeit ab"
+        />
         <div
           style={{
             height: "var(--padding-xxl)",

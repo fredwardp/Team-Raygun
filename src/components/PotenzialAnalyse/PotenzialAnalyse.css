@@ -3,6 +3,9 @@
   background-color: var(--main-bg-color);
   position: relative;
   z-index: 2;
+  max-width: calc(1280px + 12%);
+  padding-inline: 6%;
+  margin-inline: auto;
 }
 
 .potenzial_analyse .border_wrapper {
@@ -13,6 +16,7 @@
     rgba(142, 162, 188, 0.2) 100%
   );
   padding: 1.25px;
+  max-width: calc(1280px + 12%);
 }
 
 .potenzial_analyse article {

@@ -1,0 +1,32 @@
+.coaching_testi {
+  display: flex;
+  align-items: center;
+  gap: var(--padding-xl);
+  margin-block: var(--padding-xxl);
+}
+
+.coaching_testi article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.coaching_testi blockquote {
+  font-size: var(--font-size-l);
+}
+
+.coaching_testi article p {
+  font-size: var(--font-size-xm);
+}
+
+.coaching_testi article a {
+  color: var(--text-color);
+  font-size: var(--font-size-xm);
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.coaching_testi img {
+  border-radius: 24px;
+  max-width: 440px;
+}

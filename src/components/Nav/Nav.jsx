@@ -18,7 +18,7 @@ const Nav = () => {
           <Link to="/casestudies">Case Studies</Link>
           <Link to="/agentur">Agentur</Link>
         </div>
-        <Link to="/kontakt/projektanfrage" className="nav_btn">
+        <Link to="/kontakt/projektanfrage" className="btn_gradient nav_btn">
           Kontakt aufnehmen
         </Link>
         <div

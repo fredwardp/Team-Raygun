@@ -25,16 +25,9 @@ nav {
 }
 
 .nav_btn {
-  height: 54px;
   width: 204px;
-  border-radius: 1000px;
-  background: rgba(7, 8, 16, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 56px;
   padding-bottom: 3px;
-  font-weight: 600;
 }
 
 .hamburger_menu {

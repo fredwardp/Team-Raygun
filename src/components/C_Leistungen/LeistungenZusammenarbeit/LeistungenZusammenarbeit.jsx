@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./LeistungenZusammenarbeit.css";
-import content from "./Zusammenarbeit.json";
 
-const LeistungenZusammenarbeit = () => {
+const LeistungenZusammenarbeit = ({ content, heading, smallFont }) => {
   const sectionRef = useRef(null);
   const circleRefs = useRef([]);
   const [isVisible, setIsVisible] = useState(false);
@@ -59,7 +58,15 @@ const LeistungenZusammenarbeit = () => {
   return (
     <section ref={sectionRef} className="leistungen_zusammenarbeit container">
       <div className="heading_wrapper">
-        <h2>So läuft die Zusammenarbeit ab:</h2>
+        <h2
+          style={
+            smallFont
+              ? { fontSize: "40px" }
+              : { fontSize: "var(--font-size-xl)" }
+          }
+        >
+          {heading}:
+        </h2>
       </div>
       <div className="scroll_animation">
         <div className="circle" ref={(el) => (circleRefs.current[0] = el)}>

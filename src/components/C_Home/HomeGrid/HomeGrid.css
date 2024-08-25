@@ -26,19 +26,22 @@
 .home_grid .container .item1 {
   grid-column: 1 / 6; /* Geht über die gesamte Breite */
   min-height: 480px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   background: url(/img/home_rad_bg.png),
     linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
   background-size: 55%, cover;
   background-repeat: no-repeat;
   background-position: right bottom;
+  position: relative;
 }
 
 .item1 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 50%;
+  height: 100%;
 }
 
 .item1 .left h2 {
@@ -71,10 +74,14 @@
 }
 
 .item1 .right {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
 }
 .item1 .right div {
   position: relative;
@@ -323,7 +330,7 @@
   max-width: 18ch;
   text-wrap: wrap;
   text-align: center;
-  font-size: 40px;
+  font-size: var(--font-size-40);
   font-family: var(--main-font);
 }
 

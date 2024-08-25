@@ -5,7 +5,7 @@ import "./PotenzialAnalyse.css";
 
 const PotenzialAnalyse = () => {
   return (
-    <section className="potenzial_analyse container">
+    <section className="potenzial_analyse ">
       <div className="border_wrapper">
         <article>
           <div className="elipse_bg"></div>

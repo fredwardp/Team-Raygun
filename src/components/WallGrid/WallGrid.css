@@ -45,7 +45,7 @@
   padding: var(--padding-xm);
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
 .min_width article {

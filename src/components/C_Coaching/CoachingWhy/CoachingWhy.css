@@ -1,0 +1,13 @@
+.coaching_wall_p {
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  color: var(--heading-color);
+  line-height: 125%;
+  max-width: 24ch;
+}
+
+.min_width article .coaching_wall_h3 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 115%;
+}

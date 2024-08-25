@@ -11,7 +11,7 @@
 :root {
   --main-font: Familjen_Grotesk;
   --text-font: Inter;
-  --font-size-3xl: 160px;
+  --font-size-3xl: clamp(5rem, 3.5714rem + 7.1429vw, 10rem);
   --font-size-xxl: clamp(2.25rem, 1.4318rem + 4.0909vw, 4.5rem); /* 72px*/
   --font-size-xl: clamp(2rem, 1.6364rem + 1.8182vw, 3rem); /* 48px*/
   --font-size-l: clamp(1.25rem, 1.0466rem + 1.0169vw, 2rem); /* 32px*/
@@ -20,6 +20,8 @@
   --font-size-s: clamp(1rem, 0.9545rem + 0.2273vw, 1.125rem); /* 18px*/
   --font-size-xs: clamp(0.875rem, 0.8295rem + 0.2273vw, 1rem); /* 16px*/
   --font-size-xxs: 14px;
+
+  --font-size-40: clamp(1.375rem, 1.0536rem + 1.6071vw, 2.5rem); /* 40px */
 
   --padding-xxl: 240px;
   --padding-xl: 120px;

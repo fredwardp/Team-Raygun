@@ -1,0 +1,45 @@
+.coaching_who {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--padding-xl);
+  background: url(/img/coaching_who_bg_img.png) no-repeat;
+  background-size: contain;
+  background-position: bottom 90px center;
+  padding-block: var(--padding-xxl);
+}
+
+.coaching_who .header {
+  text-align: center;
+}
+.coaching_who .header h2 {
+  max-width: 20ch;
+  margin-inline: auto;
+  margin-bottom: var(--padding-s);
+}
+
+.coaching_who .header p {
+  max-width: 54ch;
+  margin-inline: auto;
+}
+
+.coaching_who .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--padding-s);
+}
+
+.coaching_who .content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.coaching_who .content p {
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-family: var(--main-font);
+  line-height: 115%;
+  color: var(--heading-color);
+}
