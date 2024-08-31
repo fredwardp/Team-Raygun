@@ -5,6 +5,7 @@ import AgenturPublikationen from "../../components/C_Agentur/AgenturPublikatione
 import AgenturTeam from "../../components/C_Agentur/AgenturTeam/AgenturTeam";
 import AgenturTimeline from "../../components/C_Agentur/AgenturTimeline/AgenturTimeline";
 import PotenzialAnalyse from "../../components/PotenzialAnalyse/PotenzialAnalyse";
+import Testimonials from "../../components/Testimonials/Testimonials";
 import "./About.css";
 
 const About = () => {
@@ -17,8 +18,9 @@ const About = () => {
         <AgenturTeam />
         {/* <AgenturTimeline /> */}
         <AgenturPublikationen />
-        <PotenzialAnalyse />
       </main>
+      <Testimonials />
+      <PotenzialAnalyse />
     </>
   );
 };
