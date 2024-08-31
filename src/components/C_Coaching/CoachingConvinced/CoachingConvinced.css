@@ -1,0 +1,36 @@
+.coaching_convinced {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--main-bg-color);
+  position: relative;
+  z-index: 10;
+  padding-block: var(--padding-xxl);
+}
+
+.coaching_convinced div div {
+  position: absolute;
+  background: url(/img/coaching_convinced_shine.svg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  left: -500px;
+  top: -60px;
+}
+
+.coaching_convinced h2 {
+  font-size: var(--font-size-l);
+}
+
+.coaching_convinced .link_wrapper {
+  position: relative;
+  z-index: 11;
+}
+
+.coaching_convinced .link_wrapper a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 8px;
+  border-top: 1.25px solid rgba(69, 70, 93, 1);
+}

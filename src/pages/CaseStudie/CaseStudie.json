@@ -1,0 +1,122 @@
+{
+  "triangility": {
+    "header": {
+      "name": "Triangility GmbH",
+      "branche": "Trainings/Workshops für Leadership und Organisationsentwicklung",
+      "typ": "B2B, International",
+      "zeitraum": "2023 - heute",
+      "background": "radial-gradient(50% 100% at 50% 0%, rgba(255, 176, 81, 0.25) 0%, rgba(255, 176, 81, 0.05) 100%)",
+      "img": "/img/casestudies/triangility/heading_img.png"
+    },
+    "main": {
+      "bigText": "Das Ziel der Zusammenarbeit lag in der Erstellung und Optimierung der Leistungsseiten. Jedoch stellten wir schnell fest, dass es versteckte technische Probleme gab, die das Ranking verhinderten. Zudem entschieden wir uns für eine Neustrukturierung der Website, die sich besser für SEO eignet. Durch die Behebung der technischen Probleme und die neue Struktur konnten nicht nur die Leistungsseiten, sondern auch alle Magazinartikel außerordentliche Rankingverbesserung verzeichnen, was wiederum zu einer starken Steigerung der organischen Leads führte.",
+      "testimonial": {
+        "img": "/img/casestudies/triangility/testimonial_img.png",
+        "text": "„Obwohl wir schon seit 10 Jahren auf eher „traditionelle Weise“ erfolgreich sind, hat uns Maximilian auf das nächste Level gebracht. Seine Erfahrung und sein analytischer Blick sind herausragend! Alle Kurven zeigen nach oben und wir erreichen unser Ziel: hohe Sichtbarkeit.”",
+        "name": "Michael Pohl",
+        "profession": "Gründer und Geschäftsführer, triangility GmbH"
+      },
+      "result": {
+        "description": "Ergebnisse nach 9 Monaten Zusammenarbeit",
+        "resultData": [
+          {
+            "heading": "2x",
+            "subHeading": "Anfragen",
+            "text": "Verdoppelung der Anfragen über unsere Website je Quartal (von 9 auf 20, Tendenz steigend)"
+          },
+          {
+            "heading": "+40k",
+            "subHeading": "Auftragsvolumen",
+            "text": "Diese Anfragen haben bisher zu rund 40k EUR Auftragsvolumen geführt"
+          },
+          {
+            "heading": "1000%",
+            "subHeading": "Anstieg von Website-Besucher",
+            "text": "Anstieg von Website-Besucher um 1000% gegenüber dem Vorjahr"
+          }
+        ]
+      },
+      "dataImg": "/img/casestudies/triangility/data_img.png"
+    }
+  },
+  "emotionalRelease": {
+    "header": {
+      "name": "Emotional Release",
+      "branche": "Heilpraktiker Praxis",
+      "typ": "B2B, national",
+      "zeitraum": "2022 - heute",
+      "background": "radial-gradient(50% 100% at 50% 0%, rgba(229, 82, 160, 0.25) 0%, rgba(229, 82, 160, 0.05) 100%)",
+      "img": "/img/casestudies/emotionalRelease/heading_img.png"
+    },
+    "main": {
+      "bigText": "Am Anfang musste eine vollständige Keyword-Recherche erstellt werden, sodass wir Klarheit darüber gewinnen konnten, nach welchen Themen und Dienstleistungen Nachfrage besteht. Auf Basis der Keywords wurde eine SEO-freundliche Websitestruktur implementiert. Unsere neuen Leistungs- und Themenseiten waren inhaltlich so stark, dass sie nicht nur hervorragende Rankings erzielen konnten, sondern auch ganz organisch Backlinks bekamen. Parallel zu dem Terminbuchungen stiegen auch die Anmeldungen für den Newsletter auf mehrere Tausend im ersten Jahr.",
+      "testimonial": {
+        "img": "/img/casestudies/emotionalRelease/testimonial_img.png",
+        "text": "“Dank Maximilians hervorragender Unterstützung seit Juli 2021 konnten wir die monatliche Besucherzahl meiner Website von minimal auf 5-stellig – weiter steigend – anheben.  Das Ziel, meine Vor-Ort-Praxis in ein Online-Business umzuwandeln und weiter auf- und auszubauen haben wir erfolgreich umgesetzt. Mein gesamtes Geschäftskonzept wurde dank Maximilian auf ein neues Level gehoben”",
+        "name": "Stefanie Heinlein",
+        "profession": "Geschäftsführerin von EMOTIONAL RELEASE"
+      },
+      "result": {
+        "description": "Ergebnisse & Vergleich zwischen 2022 und 2023",
+        "resultData": [
+          {
+            "heading": "+95%",
+            "subHeading": "Terminbuchungen",
+            "text": "Vergleich der Terminbuchungen zwischen 2022 und 2023"
+          },
+          {
+            "heading": "+231%",
+            "subHeading": "Mehr Umsätze",
+            "text": "Vergleich der Umsätze zwischen 2022 und 2023"
+          },
+          {
+            "heading": "+3320",
+            "subHeading": "Neue Newsletteranmeldungen",
+            "text": "Neue Newsletteranmeldungen innerhalb von 24 Monaten"
+          }
+        ]
+      },
+      "dataImg": "/img/casestudies/emotionalRelease/data_img.png"
+    }
+  },
+  "mpuWolff": {
+    "header": {
+      "name": "MPU Wolff",
+      "branche": "Anbieter für MPU-Vorbereitung",
+      "typ": "B2B, national",
+      "zeitraum": "2021 - heute",
+      "background": "radial-gradient(50% 100% at 50% 0%, rgba(162, 201, 93, 0.25) 0%, rgba(162, 201, 93, 0.05) 100%)",
+      "img": "/img/casestudies/mpuWolff/heading_img.png"
+    },
+    "main": {
+      "bigText": "Zu Beginn der Zusammenarbeit lag der Fokus auf der Content-Erstellung für Leistungsseiten. Durch die Komplexität der Thematik (MPU) wurden weitere Informationsseiten um die Leistungsseiten herum gebaut, um die Customer-Journey abzudecken. Durch den gezielten Backlinkaufbau konnten wir unsere Leistungsseiten für hart umkämpfte Keywords nach vorne bringen und den Traffic signifikant steigern. Der nächste große Hebel lag jetzt in der Umstrukturierung des Seitenaufbaus zugunsten einer höheren Conversion-Rate und somit mehr Kontaktanfragen.",
+      "testimonial": {
+        "img": "/img/casestudies/mpuWolff/testimonial_img.png",
+        "text": "“Vor der Zusammenarbeit mit Maximilian hatten wir schon organischen Traffic, jedoch fehlte uns eine langfristige Strategie. Erst durch das SEO-Know-how von Maximilian konnten wir eine optimierte Websitestruktur etablieren und so Stück für Stück immer neue Traffic-Rekorde erreichen. Besonders gefallen hat uns die praktische Umsetzung, die wir komplett in seine Hände geben konnten. Wir arbeiten jetzt schon über 4 Jahre zusammen. Maximilian passt die SEO Aktivitäten immer neu an die Gegebenheiten, an die Google fordert. Maximilian und seine Arbeit können wir definitiv weiterempfehlen.”",
+        "name": "Thomas Wolff",
+        "profession": "Geschäftsführer und Gründer von MPU Wolff"
+      },
+      "result": {
+        "description": "Ergebnisse nach 6 Monaten Zusammenarbeit",
+        "resultData": [
+          {
+            "heading": "+25%",
+            "subHeading": "Mehr Umsatz pro Monat",
+            "text": "Gestiegener Gewinn: Durch Umstrukturierungen haben wir unseren Gewinn in den letzten 6 Monaten um ca. 25% steigen können."
+          },
+          {
+            "heading": "+1650%",
+            "subHeading": "Mehr Traffic",
+            "text": "Steigerung des Traffic um 1650% seit Beginn der Zusammenarbeit"
+          },
+          {
+            "heading": "+6/7",
+            "subHeading": "Neukunden im Monat",
+            "text": "Gewonnene Neukunden Steigerung von 14-18 auf 20-25 Neukunden im Monat"
+          }
+        ]
+      },
+      "dataImg": "/img/casestudies/mpuWolff/data_img.png"
+    }
+  }
+}

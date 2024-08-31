@@ -1,0 +1,17 @@
+.coaching_what_boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--padding-s);
+  margin-top: -100px;
+}
+
+.coaching_what_boxes article {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--padding-s);
+  border-radius: 24px;
+  background-color: var(--brighter-bg-color);
+  border: 1.25px solid rgba(255, 255, 255, 0.1);
+}

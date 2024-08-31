@@ -1,0 +1,20 @@
+const CoachingConvincedArrow = () => {
+  return (
+    <svg
+      width="21"
+      height="14"
+      viewBox="0 0 21 14"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M14.0303 0.509766L20.5607 7.0401L14.0303 13.5704L12.9697 12.5098L17.6893 7.7901H0V6.2901H17.6893L12.9697 1.57043L14.0303 0.509766Z"
+        fill="#8EA2BC"
+      />
+    </svg>
+  );
+};
+
+export default CoachingConvincedArrow;

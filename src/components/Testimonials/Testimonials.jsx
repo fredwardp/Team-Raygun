@@ -30,7 +30,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       <div className="top_stroke"></div>
       <h2>Das sagen unsere Partner</h2>
       <div

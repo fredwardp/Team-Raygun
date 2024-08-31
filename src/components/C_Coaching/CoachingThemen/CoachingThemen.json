@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Alles mit Texten",
+    "text": "Keyword-Recherche, Content-Erstellung und Text-Briefings"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Technischer Audit und Bug Fixing",
+    "text": "Lorem ipsum"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "SEO-Basics",
+    "text": "Wo gibt es Optimierungspotenziale auf einer bestimmten Seite?"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "On-Page-Analyse",
+    "text": "Wo gibt es Optimierungspotenziale auf einer bestimmten Seite?"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Crawl-Auswertung",
+    "text": "Wie interpretiert man die Ergebnisse eines Crawls und welche Fehler-Reports sind wirklich wichtig?"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Live-Umsetzung",
+    "text": "Wir sind in eurem Website-Backend und nehmen gemeinsam Anpassungen an der Website vor."
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Wettbewerbsanalyse",
+    "text": "Warum ist der eine Konkurrent vor mir? Was macht er richtig? Wie können wir aufholen oder sogar besser sein?"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "Rankinganalyse",
+    "text": "Warum haben wir für Keyword X 5 Plätze in den Suchergebnissen verloren? Warum hat die gesamte Website an Sichtbarkeit verloren?"
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "SEO besser verstehen",
+    "text": "Wir geben einen Workshop, in dem wir SEO von Grund auf und für jeden verständlich und anschaulich erklären."
+  },
+  {
+    "icon": "/img/coaching_themen_check.svg",
+    "title": "SEO Wissen auffrischen",
+    "text": "Wir geben einen Workshop, in dem wir zeigen, worauf es heute bei SEO ankommt. "
+  }
+]

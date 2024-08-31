@@ -14,6 +14,10 @@ const CoachingWho = () => {
       <div className="content">
         <div>
           <img src="/img/coaching_who1.svg" alt="people" />
+          <p>Unternehmen</p>
+        </div>
+        <div>
+          <img src="/img/coaching_who1.svg" alt="people" />
           <p>Marketing Teams</p>
         </div>
         <div>

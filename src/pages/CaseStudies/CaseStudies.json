@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/img/casestudies/vorschau_img1.png",
+    "name": "Triangility GmbH",
+    "background": "radial-gradient(50% 100% at 50% 0%, rgba(255, 176, 81, 0.25) 0%, rgba(255, 176, 81, 0.05) 100%)",
+    "url": "triangility"
+  },
+  {
+    "img": "/img/casestudies/vorschau_img2.png",
+    "name": "Emotional Release",
+    "background": "radial-gradient(50% 100% at 50% 0%, rgba(229, 82, 160, 0.25) 0%, rgba(229, 82, 160, 0.05) 100%)",
+    "url": "emotionalRelease"
+  },
+  {
+    "img": "/img/casestudies/vorschau_img3.png",
+    "name": "MPU Wolff",
+    "background": "radial-gradient(50% 100% at 50% 0%, rgba(162, 201, 93, 0.25) 0%, rgba(162, 201, 93, 0.05) 100%)",
+    "url": "mpuWolff"
+  }
+]

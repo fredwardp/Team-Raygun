@@ -11,6 +11,7 @@ import Impressum from "./pages/Impressum";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import CaseStudie from "./pages/CaseStudie/CaseStudie";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/agentur" element={<About />} />
         <Route path="/casestudies" element={<CaseStudies />} />
+        <Route path="casestudies/:name" element={<CaseStudie />} />
         <Route path="/coaching" element={<Coaching />} />
         <Route path="/kontakt/:type" element={<Contact />} />
         <Route path="/leistungen" element={<Leistungen />} />
