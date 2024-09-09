@@ -16,7 +16,7 @@ const About = () => {
         {/* <AgenturLeads /> */}
         <AgenturAbout />
         <AgenturTeam />
-        {/* <AgenturTimeline /> */}
+        <AgenturTimeline />
         <AgenturPublikationen />
       </main>
       <Testimonials />

@@ -159,6 +159,65 @@ button {
   background: var(--text-gradient-color);
 }
 
+/* Datenschutz/Impressum styling */
+
+.formal_texts_wrapper {
+  background: url("./img/bg_top.svg") no-repeat;
+  background-position: center -1700px;
+}
+
+.formal_texts_header {
+  min-height: unset;
+  padding-block: var(--padding-xxl) var(--padding-l);
+}
+
+.formal_texts_header h1 {
+  font-size: var(--font-size-xxl);
+}
+
+.formal_texts_main {
+  padding-block: var(--padding-xl);
+}
+
+.formal_texts_main article {
+  margin-bottom: var(--padding-xl);
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.formal_texts_main article h3 {
+  font-size: var(--font-size-l);
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(
+      270deg,
+      rgba(128, 141, 255, 0.2) 0%,
+      rgba(144, 255, 202, 0.2) 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.formal_texts_main article h4 {
+  margin-bottom: 36px;
+  color: var(--text-color);
+  font-size: var(--font-size-xm);
+  font-size: var(--font-size-xs);
+}
+
+.formal_texts_main article a {
+  color: var(--text-color);
+  display: block;
+  font-weight: 400;
+}
+
+.formal_texts_main article:last-of-type a {
+  display: inline-block;
+  padding-left: 4px;
+}
+
 @media only screen and (max-width: 768px) {
   :root {
     --padding-xxl: 160px;

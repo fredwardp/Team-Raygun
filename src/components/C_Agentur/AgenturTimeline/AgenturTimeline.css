@@ -1,0 +1,69 @@
+.agentur_timeline {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 1fr;
+  padding-bottom: var(--padding-xxl);
+  /* overflow: hidden; */
+}
+
+.agentur_timeline .heading_wrapper {
+  height: 100%;
+}
+
+.agentur_timeline h2 {
+  font-weight: 500;
+  line-height: 110%;
+  position: sticky;
+  top: 150px;
+}
+
+.agentur_timeline .scroll_animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.agentur_timeline .content .year {
+  position: absolute;
+  left: -280px;
+}
+
+.agentur_timeline .content {
+  display: flex;
+  flex-direction: column;
+  gap: 19.6%;
+  justify-content: space-between;
+}
+
+.agentur_timeline .content article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-xs);
+  position: relative;
+}
+
+.background_div {
+  position: absolute;
+  z-index: 1;
+  width: 6px;
+  background-color: var(--main-bg-color);
+  height: calc(240px + 10vw);
+  bottom: calc(-240px - 10vw);
+}
+
+.agentur_timeline .content article p:first-of-type {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 46px;
+  width: max-content;
+}
+
+.agentur_timeline .content article h3 {
+  font-weight: 500;
+  font-size: 24px;
+}

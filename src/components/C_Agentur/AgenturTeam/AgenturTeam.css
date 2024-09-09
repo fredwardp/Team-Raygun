@@ -1,8 +1,11 @@
 .agentur_team {
-  padding-block: var(--padding-xxl);
+  padding-block: var(--padding-xxl) 480px;
   display: flex;
   flex-direction: column;
   gap: var(--padding-xl);
+  background: var(--main-bg-color);
+  position: relative;
+  z-index: 2;
 }
 
 .team_wrapper {

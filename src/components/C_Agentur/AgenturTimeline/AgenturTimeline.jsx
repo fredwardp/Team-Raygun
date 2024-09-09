@@ -1,6 +1,6 @@
 import "./AgenturTimeline.css";
 import React, { useEffect, useRef, useState } from "react";
-// import content from "./Zusammenarbeit.json";
+import content from "./AgenturTimeline.json";
 const AgenturTimeline = () => {
   const sectionRef = useRef(null);
   const circleRefs = useRef([]);
@@ -56,9 +56,9 @@ const AgenturTimeline = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="leistungen_zusammenarbeit container">
+    <section ref={sectionRef} className="agentur_timeline container">
       <div className="heading_wrapper">
-        <h2>So läuft die Zusammenarbeit ab:</h2>
+        <h2>Unsere Story</h2>
       </div>
       <div className="scroll_animation">
         <div className="circle" ref={(el) => (circleRefs.current[0] = el)}>
@@ -69,7 +69,15 @@ const AgenturTimeline = () => {
           <div></div>
         </div>
         <div className="line"></div>
-        <div className="circle" ref={(el) => (circleRefs.current[2] = el)}>
+        <div className="circle" ref={(el) => (circleRefs.current[3] = el)}>
+          <div></div>
+        </div>
+        <div className="line"></div>
+        <div className="circle" ref={(el) => (circleRefs.current[4] = el)}>
+          <div></div>
+        </div>
+        <div className="line"></div>
+        <div className="circle" ref={(el) => (circleRefs.current[5] = el)}>
           <div></div>
         </div>
         <div className="background_div"></div>
@@ -77,9 +85,8 @@ const AgenturTimeline = () => {
       </div>
       <div className="content">
         {content.map((data, index) => (
-          <article key={data.heading}>
-            <p>{data.number}</p>
-            <h3>{data.heading}</h3>
+          <article key={index}>
+            <p className="year">{data.year}</p>
             <p>{data.text}</p>
             {/* {index === 2 && <div className="background_div"></div>} */}
           </article>
