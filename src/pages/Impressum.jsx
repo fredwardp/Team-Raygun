@@ -8,7 +8,7 @@ const Impressum = () => {
       </header>
       <main className="container formal_texts_main">
         <article>
-          <h3>Angaben gemäß § 5 TMG</h3>
+          <h2>Angaben gemäß § 5 TMG</h2>
           <div>
             <p>Maximilian Pawelzik</p>
             <p>Christine-Koch Str. 3</p>
@@ -23,22 +23,21 @@ const Impressum = () => {
           <p>USt-IdNr.: DE344828823</p>
         </article>
         <article>
-          <h3>Realisierung</h3>
-
+          <h2>Realisierung</h2>
           <div>
-            <h4>Gestaltung</h4>
+            <h3 className="impressum_h3">Gestaltung</h3>
             <p>Lunevis by Bienek, Dermann & Klein GbR</p>
             <a href="https://www.lunevis.de/" target="_blank">
               www.lunevis.de
             </a>
           </div>
           <div>
-            <h4>Entwicklung</h4>
+            <h3 className="impressum_h3">Entwicklung</h3>
             <p>Frederick Pawelzik</p>
           </div>
         </article>
         <article>
-          <h3>Streitschlichtung</h3>
+          <h2>Streitschlichtung</h2>
           <div>
             <p>
               Die Europäische Kommission stellt eine Plattform zur
@@ -58,7 +57,7 @@ const Impressum = () => {
           </div>
         </article>
         <article>
-          <h3>Haftung für Inhalte</h3>
+          <h2>Haftung für Inhalte</h2>
           <p>
             Die Inhalte des Internetauftritts wurden mit größtmöglicher Sorgfalt
             und nach bestem Gewissen erstellt. Dennoch übernimmt der Anbieter
@@ -83,7 +82,7 @@ const Impressum = () => {
           </p>
         </article>
         <article>
-          <h3>Haftung für Links</h3>
+          <h2>Haftung für Links</h2>
           <p>
             Unser Angebot enthält Links zu externen Websites Dritter, auf deren
             Inhalte wir keinen Einfluss haben. Deshalb können wir für diese
@@ -102,7 +101,7 @@ const Impressum = () => {
           </p>
         </article>
         <article>
-          <h3>Urheberrecht</h3>
+          <h2>Urheberrecht</h2>
           <p>
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
             diesen Seiten unterliegen dem deutschen Urheberrecht. Die

@@ -187,8 +187,30 @@ button {
   gap: 36px;
 }
 
-.formal_texts_main article h3 {
+.formal_texts_main article h2 {
   font-size: var(--font-size-l);
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(
+      270deg,
+      rgba(128, 141, 255, 0.2) 0%,
+      rgba(144, 255, 202, 0.2) 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: 110%;
+}
+
+.formal_texts_main .impressum_h3 {
+  color: var(--text-color);
+  margin-bottom: 36px;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  background: unset;
+}
+
+.formal_texts_main h3 {
+  font-size: var(--font-size-xm);
   background: linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(
       270deg,
@@ -200,17 +222,35 @@ button {
   color: transparent;
 }
 
-.formal_texts_main article h4 {
-  margin-bottom: 36px;
-  color: var(--text-color);
-  font-size: var(--font-size-xm);
-  font-size: var(--font-size-xs);
-}
-
 .formal_texts_main article a {
   color: var(--text-color);
   display: block;
   font-weight: 400;
+  text-wrap: wrap;
+  word-break: break-all;
+}
+
+.formal_texts_main article .datenschutz_a {
+  display: inline-block;
+  padding-inline: 4px;
+  color: #90ffca;
+  font-weight: 300;
+}
+
+.formal_texts_main li {
+  list-style: disc;
+  margin-left: 60px;
+  color: var(--text-color);
+}
+
+.formal_texts_main blockquote {
+  color: var(--text-color);
+}
+
+.formal_texts_main strong {
+  font-family: var(--main-font);
+  opacity: 0.9;
+  padding-inline: 2px;
 }
 
 .formal_texts_main article:last-of-type a {
