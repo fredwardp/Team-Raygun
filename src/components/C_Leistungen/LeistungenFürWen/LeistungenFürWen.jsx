@@ -15,7 +15,7 @@ const LeistungenFürWen = () => {
       />
       <div className="content">
         {content.map((data) => (
-          <article key={data.heading}>
+          <article key={data.heading} className="glassmorph">
             <img src={data.img} alt={data.heading} />
             <h3>{data.heading}</h3>
             <p>{data.text}</p>

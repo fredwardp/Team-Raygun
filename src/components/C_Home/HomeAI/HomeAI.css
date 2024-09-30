@@ -331,7 +331,7 @@
 
 .ai_grid .box1 {
   grid-column: 1/4;
-  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%),
+  background: linear-gradient(360deg, #1a1b27ac 0%, rgba(26, 27, 39, 0.4) 100%),
     url(/img/home_ai_reg_bg.svg);
   background-repeat: no-repeat;
   background-position: top;
@@ -340,7 +340,7 @@
 
 .ai_grid .box2 {
   grid-column: 4/8;
-  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%),
+  background: linear-gradient(360deg, #1a1b27ac 0%, rgba(26, 27, 39, 0.4) 100%),
     url(/img/home_ai_reg_bg.svg);
   background-repeat: no-repeat;
   background-position: top;
@@ -354,7 +354,7 @@
 
 .ai_grid .box3 {
   grid-column: 1/5;
-  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%),
+  background: linear-gradient(360deg, #1a1b27ac 0%, rgba(26, 27, 39, 0.4) 100%),
     url(/img/home_ai_box3_bg.svg);
   background-repeat: no-repeat;
   background-position: center, top 80% right 80%;
@@ -379,7 +379,7 @@
 
 .ai_grid .box4 {
   grid-column: 5/8;
-  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%),
+  background: linear-gradient(360deg, #1a1b27ac 0%, rgba(26, 27, 39, 0.4) 100%),
     url(/img/home_ai_reg_bg.svg);
   background-repeat: no-repeat;
   background-position: top;

@@ -24,6 +24,15 @@ nav {
   font-size: var(--font-size-xs);
   font-weight: 500;
   font-family: var(--main-font);
+  transition: all 0.4s ease;
+}
+
+.nav_container .link_wrapper a:hover {
+  color: cadetblue;
+}
+
+.active {
+  color: cadetblue;
 }
 
 .nav_btn {

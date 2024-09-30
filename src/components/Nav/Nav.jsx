@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Nav.css";
 import { useState, useEffect } from "react";
 
@@ -28,11 +28,11 @@ const Nav = () => {
           <img className="nav_logo" src="/img/nav_logo.svg" alt="" />
         </Link>
         <div className="link_wrapper">
-          <Link to="/">Startseite</Link>
-          <Link to="/leistungen">Leistungen</Link>
-          <Link to="/coaching">SEO-Coaching</Link>
-          <Link to="/casestudies">Case Studies</Link>
-          <Link to="/agentur">Agentur</Link>
+          <NavLink to="/">Startseite</NavLink>
+          <NavLink to="/leistungen">Leistungen</NavLink>
+          <NavLink to="/coaching">SEO-Coaching</NavLink>
+          <NavLink to="/casestudies">Case Studies</NavLink>
+          <NavLink to="/agentur">Agentur</NavLink>
         </div>
         <Link to="/kontakt/projektanfrage" className="btn_gradient nav_btn">
           Kontakt aufnehmen

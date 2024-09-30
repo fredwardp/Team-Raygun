@@ -12,6 +12,6 @@
   align-items: flex-start;
   gap: var(--padding-s);
   border-radius: 24px;
-  background-color: var(--brighter-bg-color);
-  border: 1.25px solid rgba(255, 255, 255, 0.1);
+  /* background-color: var(--brighter-bg-color); */
+  border: 1.25px solid rgba(255, 255, 255, 0.05);
 }

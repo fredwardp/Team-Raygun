@@ -14,7 +14,7 @@ const Footer = () => {
           <article>
             <h2>Kontakt</h2>
 
-            <a className="footer_phone" href="tel:+491623361419">
+            <a className="footer_phone " href="tel:+491623361419">
               <p className="phone_number">+49 1623361419</p>
               <p className="phone_infos">Anrufe & Whatsapp möglich</p>
             </a>

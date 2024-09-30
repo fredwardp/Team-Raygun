@@ -24,7 +24,7 @@ const CoachingWhat = () => {
         </div>
       </section>
       <div className="coaching_what_boxes">
-        <article>
+        <article className="glassmorph">
           <img src="/img/Remote-Icon.svg" alt="" />
           <h3>100% Remote</h3>
           <p>
@@ -35,7 +35,7 @@ const CoachingWhat = () => {
             Arbeiten genutzt werden.
           </p>
         </article>
-        <article>
+        <article className="glassmorph">
           <img src="/img/Inhalte-Icon.svg" alt="" />
           <h3>Vollen Zugriff auf alle Inhalte</h3>
           <p>

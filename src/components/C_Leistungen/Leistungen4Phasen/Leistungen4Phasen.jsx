@@ -69,7 +69,7 @@ const Leistungen4Phasen = () => {
               {slideInfo.content.p2 && (
                 <div class="phasen_stars_wrapper">
                   {slideInfo.content.p2.map((line, index) => (
-                    <div key={index}>
+                    <div key={index} className="glassmorph">
                       <img src="/img/leistungen_phasen_star.svg" alt="star" />
                       {line}
                     </div>

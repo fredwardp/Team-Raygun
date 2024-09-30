@@ -282,3 +282,13 @@ button {
     --padding-s: 24px;
   }
 }
+
+.glassmorph {
+  background: rgba(26, 27, 39, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Optional: Animation für leichten Glanzeffekt */
+  transition: transform 0.3s ease;
+}

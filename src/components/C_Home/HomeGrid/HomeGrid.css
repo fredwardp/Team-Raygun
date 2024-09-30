@@ -14,7 +14,7 @@
 .home_grid .container article {
   padding: var(--padding-xm);
 
-  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
+  /* background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%); */
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -33,8 +33,7 @@
   min-height: 480px;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
-  background: url(/img/home_rad_bg.png),
-    linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
+  background: url(/img/home_rad_bg.png), rgba(26, 27, 39, 0.5);
   background-size: 55%, cover;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -170,6 +169,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 60px;
+  background: linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
 }
 
 .item3 h2 {
@@ -216,8 +216,7 @@
 .home_grid .container .item4 {
   grid-column: 4 / 1; /* Nimmt 2fr */
   min-height: 480px;
-  background: url(/img/home_coaching_bg.png),
-    linear-gradient(360deg, #1a1b27 0%, rgba(26, 27, 39, 0.4) 100%);
+  background: url(/img/home_coaching_bg.png), rgba(26, 27, 39, 0.5);
   background-size: cover, cover;
   background-repeat: no-repeat;
   background-position: top;

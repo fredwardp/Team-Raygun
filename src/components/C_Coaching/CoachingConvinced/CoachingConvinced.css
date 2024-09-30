@@ -33,4 +33,21 @@
   gap: 20px;
   padding: 20px 8px;
   border-top: 1.25px solid rgba(69, 70, 93, 1);
+  transition: all 0.4s ease;
+}
+
+.coaching_convinced .link_wrapper a:hover {
+  border-top: 1.25px solid rgba(255, 255, 255, 0.6);
+}
+
+.coaching_convinced .link_wrapper a:hover p {
+  color: var(--heading-color);
+}
+.coaching_convinced .link_wrapper svg {
+  transition: all 0.4s ease;
+}
+
+.coaching_convinced .link_wrapper a:hover svg {
+  transform: translateX(6px);
+  stroke: white;
 }

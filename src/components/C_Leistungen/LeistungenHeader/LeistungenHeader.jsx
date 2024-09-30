@@ -8,7 +8,7 @@ const LeistungenHeader = ({
   onLeistungenClick,
   onMethodeClick,
 }) => {
-  const [opacity, setOpacity] = useState(1); // Initial opacity is 1
+  const [opacity, setOpacity] = useState(1);
   const headerRef = useRef(null);
 
   useEffect(() => {
@@ -17,21 +17,17 @@ const LeistungenHeader = ({
         const headerTop = headerRef.current.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
 
-        // Calculate the opacity based on the header's position
         const newOpacity =
           2 - Math.max(0, (windowHeight - headerTop) / windowHeight);
         setOpacity(newOpacity);
       }
     };
 
-    // Attach the scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Call handleScroll initially in case the header is already partially scrolled out
     handleScroll();
 
     return () => {
-      // Clean up the event listener on component unmount
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);

@@ -21,7 +21,7 @@ const LeistungenLeistungen = React.forwardRef((props, ref) => {
       </div>
       <div className="content">
         {content.map((data, index) => (
-          <article key={index}>
+          <article className="glassmorph" key={index}>
             <div>
               <p>{data.subHeading}</p>
               <img src={data.img} alt="" />

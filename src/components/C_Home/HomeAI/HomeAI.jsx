@@ -87,7 +87,7 @@ const HomeAI = () => {
         </div>
       </div>
       <div className="ai_grid">
-        <div className="box1">
+        <div className="box1 glassmorph">
           <HomeAIBox1 />
           <h3>Vertrauen</h3>
           <p>
@@ -98,7 +98,7 @@ const HomeAI = () => {
             Marketing.
           </p>
         </div>
-        <div className="box2">
+        <div className="box2 glassmorph">
           <HomeAIBox2 />
           <h3>Markenautorität</h3>
           <p>
@@ -109,7 +109,7 @@ const HomeAI = () => {
             dorthin zu bringen.
           </p>
         </div>
-        <div className="box3">
+        <div className="box3 glassmorph">
           <img src="/img/home_ai_box3_cash.svg" alt="cash" />
           <img src="/img/home_ai_box3_dollar.svg" alt="dollar" />
           <h3>Mehr Umsatz, weniger Klicks</h3>
@@ -123,7 +123,7 @@ const HomeAI = () => {
             wichtiger werden.
           </p>
         </div>
-        <div className="box4">
+        <div className="box4 glassmorph">
           <HomeAIBox4 />
           <h3>Digitaler Fußabdruck</h3>
           <p>

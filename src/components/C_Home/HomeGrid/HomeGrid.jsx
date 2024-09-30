@@ -9,7 +9,7 @@ const HomeGrid = () => {
   return (
     <section className="home_grid">
       <div className="container">
-        <article class="item1">
+        <article class="item1 glassmorph">
           <div className="left">
             <div>
               <h2>
@@ -53,7 +53,7 @@ const HomeGrid = () => {
             <HomeTreeArrow />
           </Link>
         </article>
-        <article class="item3">
+        <article class="item3 glassmorph">
           <div>
             <h2>Die Agentur Team Raygun</h2>
             <p>
@@ -70,7 +70,7 @@ const HomeGrid = () => {
             <img src="/img/home_grid_logo.svg" alt="" />
           </div>
         </article>
-        <article class="item4">
+        <article class="item4 glassmorph">
           <div className="svg_wrapper">
             <HomeCoaching />
           </div>

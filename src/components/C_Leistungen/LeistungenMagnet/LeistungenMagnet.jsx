@@ -16,7 +16,7 @@ const LeistungenMagnet = React.forwardRef((props, ref) => {
       />
       <div className="content">
         {content.map((data, index) => (
-          <article key={index}>
+          <article className="glassmorph" key={index}>
             <img src={data.img} alt="" />
             <h3>{data.heading}</h3>
             <p>{data.text}</p>

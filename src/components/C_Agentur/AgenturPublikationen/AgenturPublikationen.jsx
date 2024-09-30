@@ -39,7 +39,7 @@ const AgenturPublikationen = () => {
         style={{ transform: `translateX(${sliderMover}%)` }}
       >
         {content.map((article, index) => (
-          <article key={index}>
+          <article key={index} className="glassmorph">
             <img src={article.img} alt={article.heading} />
             <div className="article_wrapper">
               <div>

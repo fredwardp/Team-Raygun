@@ -16,7 +16,7 @@ const LeistungenInbound = React.forwardRef((props, ref) => {
       />
       <div className="content">
         {content.map((data, index) => (
-          <article key={index}>
+          <article className="glassmorph" key={index}>
             <div>#{index + 1}</div>
             <h3>{data.heading}</h3>
             <p>{data.text}</p>
@@ -24,7 +24,7 @@ const LeistungenInbound = React.forwardRef((props, ref) => {
         ))}
       </div>
 
-      <article className="long-content">
+      <article className="long-content glassmorph">
         <p>
           Eine Customer-Journey beschreibt die Gesamtheit aller Erfahrungen, die
           euer Kunde mit eurem Unternehmen macht, von der ersten Wahrnehmung bis
