@@ -43,4 +43,5 @@
   font-family: var(--main-font);
   line-height: 115%;
   color: var(--heading-color);
+  text-align: center;
 }

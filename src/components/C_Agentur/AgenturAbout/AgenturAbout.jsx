@@ -20,6 +20,11 @@ const AgenturAbout = () => {
           ganzheitlich, packen mit an und heben unsere Kundenprojekte auf das
           nächste und übernächste Level.
         </p>
+        <div class="badges_wrapper">
+          <img src="/img/agentur_fachkraeftezertifikat.jpg" alt="" />
+          <img src="/img/agentur_omt_expertensiegel.jpg" alt="" />
+          <img src="/img/agentur_AFS_Wortbildmarke_Autor.jpg" alt="" />
+        </div>
       </div>
       <div className="img_wrapper">
         <AgenturRaygunLogo />

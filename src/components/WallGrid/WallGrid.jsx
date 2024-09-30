@@ -18,7 +18,7 @@ const WallGrid = () => {
             <div></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
+                <img src="/img/wallgrid1.svg" alt="" />
                 <h3>Gemeinsam</h3>
               </article>
               <p>
@@ -34,7 +34,7 @@ const WallGrid = () => {
             <div className="min_width"></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
+                <img src="/img/wallgrid_2.svg" alt="" />
                 <h3>Langfristig</h3>
               </article>
               <p>
@@ -48,7 +48,7 @@ const WallGrid = () => {
             <div></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
+                <img src="/img/wallgrid_3.svg" alt="" />
                 <h3>Kreativ</h3>
               </article>
               <p>
@@ -64,7 +64,7 @@ const WallGrid = () => {
             <div style={{ minWidth: "440px" }}></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
+                <img src="/img/wallgrid_4.svg" alt="" />
                 <h3>Flexibel</h3>
               </article>
               <p>
@@ -78,7 +78,7 @@ const WallGrid = () => {
             <div style={{ minWidth: "280px" }}></div>
             <div className="min_width">
               <article>
-                <img src="/img/default_square_icon.svg" alt="" />
+                <img src="/img/wallgrid_5.svg" alt="" />
                 <h3>Transparent</h3>
               </article>
               <p>

@@ -51,7 +51,7 @@
   font-size: var(--font-size-m);
   line-height: 115%;
   overflow-wrap: break-word;
-  word-break: break-all;
+  text-wrap: wrap;
 }
 
 .leistungen_lst .content h3 {

@@ -13,15 +13,15 @@ const CoachingWho = () => {
       </div>
       <div className="content">
         <div>
-          <img src="/img/coaching_who1.svg" alt="people" />
+          <img src="/img/Company.svg" alt="people" />
           <p>Unternehmen</p>
         </div>
         <div>
-          <img src="/img/coaching_who1.svg" alt="people" />
+          <img src="/img/Team.svg" alt="people" />
           <p>Marketing Teams</p>
         </div>
         <div>
-          <img src="/img/coaching_who2.svg" alt="raute" />
+          <img src="/img/Redakteure.svg" alt="raute" />
           <p>Redakteure</p>
         </div>
         <div>

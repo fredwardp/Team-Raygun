@@ -58,15 +58,7 @@ const LeistungenZusammenarbeit = ({ content, heading, smallFont }) => {
   return (
     <section ref={sectionRef} className="leistungen_zusammenarbeit container">
       <div className="heading_wrapper">
-        <h2
-          style={
-            smallFont
-              ? { fontSize: "40px" }
-              : { fontSize: "var(--font-size-xl)" }
-          }
-        >
-          {heading}:
-        </h2>
+        <h2>{heading}:</h2>
       </div>
       <div className="scroll_animation">
         <div className="circle" ref={(el) => (circleRefs.current[0] = el)}>

@@ -10,7 +10,7 @@ const CoachingConvinced = () => {
         <h2>Noch nicht überzeugt?</h2>
       </div>
       <div className="link_wrapper">
-        <Link to="about">
+        <Link to="/agentur#published">
           <CoachingConvincedArrow />
           <p>Alle bisherigen Veröffentlichungen</p>
         </Link>

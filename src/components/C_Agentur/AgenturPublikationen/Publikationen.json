@@ -1,8 +1,44 @@
 [
   {
-    "img": "",
-    "heading": "",
-    "autor": "",
-    "link": ""
+    "img": "/img/Team/artikel/omt-json.webp",
+    "heading": "Was ist JSON-LD und wie wird es in der Praxis angewandt?",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://www.omt.de/suchmaschinenoptimierung/json-ld/"
+  },
+  {
+    "img": "/img/Team/artikel/junico-wasistseo.webp",
+    "heading": "Was ist SEO? Das SEO 1×1",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://www.junico.de/magazin/was-ist-seo"
+  },
+  {
+    "img": "/img/Team/artikel/kmt-seoleitfaden.png",
+    "heading": "Leitfaden 'Suchmaschinenoptimierung für Einsteiger'",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://www.kulturmanagement.net/Downloads/Leitfaden-Suchmaschinenoptimierung-fuer-Einsteiger,24"
+  },
+  {
+    "img": "/img/Team/artikel/kmt-cp.png",
+    "heading": "Herangehensweise für eine suchmaschinenoptimierte Content-Page",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://www.kulturmanagement.net/Themen/Content-Marketing-und-Suchmaschinenoptimierung-Herangehensweise-fuer-eine-suchmaschinenoptimierte-Content-Page,4086"
+  },
+  {
+    "img": "/img/Team/artikel/omr-optimization.webp",
+    "heading": "Search-Experience-Optimization: Alles, was du dazu wissen musst!",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://omr.com/de/reviews/contenthub/search-experience-optimization-sxo"
+  },
+  {
+    "img": "/img/Team/artikel/omr-schema.png",
+    "heading": "Schema Markup: Definition, Nutzen, Anwendung",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://assets-global.website-files.com/63c190145af55d090f9d046c/651e67f3ddeaff6eeda36899_Screenshot%202023-10-05%20093811.png"
+  },
+  {
+    "img": "/img/Team/artikel/afs-contenthub.png",
+    "heading": "Content Hub: Das Herzstück deines Content-Marketing-Erfolgs",
+    "autor": "Maximilain Pawelzik - Gründer & SEO-Manager",
+    "link": "https://www.afs-akademie.org/magazin/content-hub/"
   }
 ]

@@ -1,5 +1,7 @@
 .contact {
   padding-block: var(--padding-xxl);
+  background: url("/img/bg_top.svg") no-repeat;
+  background-position: center -1700px;
 }
 
 .contact_buttons {
@@ -7,35 +9,26 @@
   justify-content: space-between;
 }
 
-.contact_data {
+.contact_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: var(--padding-xl);
 }
 
-.contact_data h2 {
-  max-width: 17ch;
-  word-break: keep-all;
-  font-size: 40px;
-  line-height: 46px;
-}
-
-.contact_data h2 span {
-  color: var(--heading-color);
-  display: block;
+.contact_wrapper h1 {
+  font-size: var(--font-size-xxl);
 }
 
 form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 36px;
 }
 
 .label_input_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 15px;
   width: 100%;
 }
 
@@ -46,19 +39,83 @@ form {
 }
 
 input,
-select,
-textarea {
+textarea,
+.custome_select {
   border-radius: 12px;
   padding: 19px 20px;
 }
 
-input,
 textarea {
+  height: 124px;
+}
+
+input,
+textarea,
+.custome_select {
   width: 100%;
   background: var(--darker-bg-color);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-select {
-  background: rgba(69, 70, 93, 1);
+.custome_select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.custome_select svg {
+  transition: all 0.6s ease;
+}
+
+.custome_select:hover svg {
+  transform: rotate(180deg);
+}
+
+.custome_select_dropdown {
+  position: absolute;
+  top: 40px;
+  left: -1px;
+  width: calc(100% + 2px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(var(--darker-bg-color), rgba(69, 70, 93, 1));
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  animation: openSelectDropdown 0.6s ease;
+}
+
+@keyframes openSelectDropdown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contact .btn_gradient {
+  margin-right: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  font-style: italic;
+  color: #45465d;
+}
+
+.error_input {
+  border: 1px solid var(--error-color);
 }

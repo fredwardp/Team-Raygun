@@ -133,3 +133,19 @@
     transform: rotate(0deg);
   }
 }
+
+.phasen_stars_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.phasen_stars_wrapper div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--brighter-bg-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+}

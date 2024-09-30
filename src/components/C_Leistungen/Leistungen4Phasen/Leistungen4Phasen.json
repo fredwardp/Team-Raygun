@@ -196,7 +196,13 @@
       "number": null,
       "h3": null,
       "p": "Das Flywheel erlangt erst dadurch seine Eigendynamik, dass es bei der Zielgruppe bestimmte Impulse auslöst. Impulse in Form von positiven Erfahrungen, geteilten Inhalten, Kundenzufriedenheit, positiven Bewertungen und Weiterempfehlungen.",
-      "p2": "Eine positive Erfahrung bleibt im Gedächtnis. Ein geteilter Inhalt bringt Reichweite. Eine hohe Kundenzufriedenheit spricht sich herum.Eine positive Bewertung baut Vertrauen auf. Eine Weiterempfehlung bringt einen neuen Kunden."
+      "p2": [
+        "Eine positive Erfahrung bleibt im Gedächtnis.",
+        "Ein geteilter Inhalt bringt Reichweite.",
+        "Eine hohe Kundenzufriedenheit spricht sich herum.",
+        "Eine positive Bewertung baut Vertrauen auf.",
+        "Eine Weiterempfehlung bringt einen neuen Kunden."
+      ]
     },
     "flyWheel": {
       "outerText": "transparent",

@@ -1,0 +1,65 @@
+.publikationen {
+  background-color: var(var(--main-bg-color));
+  position: relative;
+  z-index: 2;
+  padding-bottom: var(--padding-xxl);
+}
+.publikationen h2 {
+  margin-bottom: 120px;
+}
+
+.publikationen .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  background-color: var(--main-bg-color);
+}
+
+.publikationen .content img {
+  height: 270px;
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(0.9);
+}
+
+.publikationen .content article {
+  background-color: var(--brighter-bg-color);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1.25px solid rgba(255, 255, 255, 0.1);
+}
+
+.article_wrapper {
+  padding: 32px var(--padding-s) var(--padding-s) var(--padding-s);
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article_wrapper h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  line-height: 120%;
+}
+
+.article_wrapper p {
+  line-height: 110%;
+}
+
+.publikationen .content a {
+  background: linear-gradient(
+      270deg,
+      rgba(128, 141, 255, 0.6) 0%,
+      rgba(144, 255, 202, 0.6) 100%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

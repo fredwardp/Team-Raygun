@@ -16,8 +16,8 @@ const Impressum = () => {
           </div>
           <div>
             <a href="tel:+491623361419">Telefon 1: (+49) 01623361419</a>
-            <a href="mailto: hallo@digitalraygun.de">
-              E-Mail: hallo@hausamseo.de
+            <a href="mailto: kontakt@teamraygun.com">
+              E-Mail: kontakt@teamraygun.com
             </a>
           </div>
           <p>USt-IdNr.: DE344828823</p>

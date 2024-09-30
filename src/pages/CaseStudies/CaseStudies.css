@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px;
+  padding: 13%;
   border-radius: 24px;
   border: 1.25px solid rgba(255, 255, 255, 0.1);
 }
@@ -47,4 +47,34 @@
   font-size: var(--font-size-m);
   font-weight: 500;
   /* font-family: var(--main-font); */
+}
+
+@media only screen and (max-width: 768px) {
+  .case_studies_main {
+    gap: var(--padding-s);
+  }
+  .case_studies_main a h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  .case_studies_header h1 {
+    font-size: 36px;
+  }
+  .case_studies_header p {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  .case_studies_main a h3 {
+    font-size: 20px;
+  }
+  .case_studies_main {
+    grid-template-columns: 1fr;
+    gap: 80px;
+    margin-bottom: 40px;
+  }
+  .case_studies_main a div {
+    padding: 57px 43px;
+  }
 }

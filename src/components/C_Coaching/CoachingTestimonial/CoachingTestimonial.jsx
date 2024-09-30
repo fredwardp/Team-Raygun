@@ -15,7 +15,12 @@ const CoachingTestimonial = () => {
           <Link>The Negotiation Studio</Link>
         </p>
       </article>
-      <img src="/img/coaching_testi.png" alt="" />
+      <div>
+        <img
+          src="/img/coaching_testi.png"
+          alt="testimonial geschäftsführer foto"
+        />
+      </div>
     </section>
   );
 };

@@ -4,8 +4,8 @@
 
 .wallgrid .bg_wrapper {
   background: url("/img/leistungen_magnet_bg_blur.png") no-repeat;
-  background-size: 80%;
-  background-position: top -20px center;
+  background-size: 70%;
+  background-position: top 0px center;
 }
 
 .wallgrid .bg_wrapper .header_gradient {

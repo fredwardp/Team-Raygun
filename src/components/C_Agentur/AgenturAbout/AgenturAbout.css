@@ -33,3 +33,17 @@
   font-size: var(--font-size-xm);
   line-height: 135%;
 }
+
+.badges_wrapper {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.badges_wrapper img {
+  border-radius: 8px;
+}
+.badges_wrapper img:last-of-type {
+  border-radius: 100%;
+}

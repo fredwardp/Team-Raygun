@@ -1,15 +1,19 @@
 .leistungen_inbound {
-  margin-top: var(--padding-s);
-  padding-block: var(--padding-l) var(--padding-xxl);
-  background: url("/img/leistungen_magnet_bg_blur.png") no-repeat;
-  background-size: contain;
-  background-position: top 0px right 10%;
+  margin-top: var(--padding-xxl);
+  padding-block: 290px var(--padding-xxl);
+  background: url("/img/leistungen_customer_journey_fade.png"),
+    url("/img/leistungen_magnet_bg_blur.png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: top 0 center, top 170px center;
+  position: relative;
 }
 
 .leistungen_inbound .content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--padding-s);
+  margin-bottom: var(--padding-s);
 }
 
 .leistungen_inbound .content article {
@@ -30,4 +34,50 @@
 
 .leistungen_inbound .content article img {
   width: 31px;
+}
+
+.leistungen_inbound .content div {
+  background: var(--accent-color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.leistungen_inbound .header_gradient h2 {
+  max-width: 22ch;
+}
+
+.leistungen_inbound .long-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-s);
+  padding: var(--padding-s);
+  background-color: var(--darker-bg-color);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 24px 80px 0px rgba(7, 10, 16, 0.2);
+}
+
+.leistungen_inbound .content p {
+  line-height: 150%;
+}
+
+.leistungen_big_bg {
+  height: 2232px;
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  background: radial-gradient(
+      50.02% 100.04% at 50% 100.01%,
+      #11111b 0%,
+      #070810 100%
+    )
+    no-repeat top center;
+  background-size: 80%;
+  border-radius: 10000px;
+  backdrop-filter: blur(100px);
+  filter: blur(100px);
+  z-index: -1;
 }

@@ -1,0 +1,157 @@
+.coaching_main .container {
+  padding: unset;
+}
+
+@media only screen and (max-width: 1200px) {
+  .coaching_themen {
+    background-position: top 50px center;
+    background-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .coaching_main {
+    padding-top: 80px;
+  }
+  .agentur_about {
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: 75%;
+    background-position: center top 10%;
+  }
+  .agentur_about .img_wrapper svg {
+    max-width: 40%;
+  }
+  .agentur_about .content {
+    gap: 48px;
+  }
+  .agentur_about .content h2 {
+    font-size: 48px;
+  }
+  .coaching_what_boxes {
+    grid-template-columns: 1fr;
+  }
+  .coaching_who {
+    background-position: center bottom;
+    background-size: cover;
+    margin-inline: -7%;
+    padding-inline: 7%;
+  }
+  .coaching_who .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .coaching_formats {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+  .coaching_formats .format_box {
+    padding: var(--padding-s) var(--padding-xs) var(--padding-l)
+      var(--padding-xs);
+  }
+  .coaching_formats h3 {
+    font-size: 20px;
+  }
+  .coaching_themen {
+    background-position: top 20px center;
+    background-size: 180%;
+    margin-inline: -7%;
+    padding-inline: 7%;
+  }
+  .coaching_themen .coaching_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .coaching_themen h3 {
+    font-size: 20px;
+  }
+  .coaching_testi {
+    flex-direction: column-reverse;
+  }
+  .coaching_testi article {
+    max-width: unset;
+  }
+  .coaching_main .coaching_wallgrid_bg_wrapper .row {
+    padding-inline: 0px;
+  }
+  .coaching_main .coaching_wallgrid_bg_wrapper .grid .first {
+    padding-inline: 45px 24px;
+  }
+  .coaching_main .coaching_wallgrid_bg_wrapper .grid .second {
+    padding-inline: 24px 24px;
+  }
+
+  .coaching_main .coaching_wallgrid_bg_wrapper .grid .third {
+    padding-left: 69px;
+    padding-right: 45px;
+  }
+  .coaching_wallgrid_bg_wrapper .row.row:nth-of-type(4n + 1) .min_width {
+    padding-left: 40px;
+    padding-right: 45px;
+  }
+
+  .coaching_convinced {
+    padding-block: 320px 160px;
+    grid-template-columns: 1fr;
+    gap: 80px;
+    margin-inline: -7%;
+    padding-inline: 7%;
+    overflow: hidden;
+  }
+
+  .coaching_convinced div div {
+    left: -50%;
+    top: 0px;
+    width: 200%;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .agentur_about {
+    background-size: 90%;
+    background-position: center top 15%;
+  }
+  .agentur_about .content h2 {
+    font-size: 30px;
+  }
+  .coaching_what_boxes article {
+    padding: 24px;
+  }
+  .coaching_what_boxes article img {
+    max-width: 48px;
+  }
+  .coaching_who .content p {
+    font-size: var(--font-size-s);
+  }
+  .coaching_themen .coaching_grid {
+    grid-template-columns: 1fr;
+  }
+  .min_width article .coaching_wall_h3 {
+    font-size: 32px;
+  }
+  .coaching_wallgrid_bg_wrapper .coaching_wall_p {
+    font-size: 16px;
+  }
+  .coaching_main .leistungen_zusammenarbeit h2 {
+    font-size: 32px;
+  }
+  .coaching_main .leistungen_zusammenarbeit .content article p:first-of-type {
+    font-size: 32px;
+  }
+  .coaching_main .leistungen_zusammenarbeit .content article h3 {
+    font-size: 20px;
+  }
+  .coaching_wallgrid_bg_wrapper .first img {
+    max-width: 30px;
+  }
+  .coaching_wallgrid_bg_wrapper .forth img {
+    max-width: 19px;
+  }
+  .coaching_convinced div div {
+    top: 50px;
+  }
+  .coaching_who .content img {
+    max-width: 120px;
+  }
+  .coaching_who .content {
+    gap: 40px;
+  }
+}

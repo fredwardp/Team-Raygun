@@ -56,7 +56,7 @@ const AgenturTimeline = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="agentur_timeline container">
+    <section ref={sectionRef} className="agentur_timeline">
       <div className="heading_wrapper">
         <h2>Unsere Story</h2>
       </div>

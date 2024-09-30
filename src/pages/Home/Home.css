@@ -1,3 +1,12 @@
+@media only screen and (min-width: 1600px) {
+  .home_header .home_header_content h1 {
+    font-size: clamp(5rem, 3.5714rem + 7.1429vw, 10rem);
+  }
+  .home_header .home_header_content p {
+    font-size: var(--font-size-l);
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   .home_header {
     background-position: bottom 20vh center, center bottom, center bottom -220px;

@@ -33,6 +33,7 @@
   font-size: var(--font-size-xxs);
   font-weight: 500;
   color: var(--heading-color);
+  max-width: 34ch;
 }
 
 .footer_content article a {
@@ -42,7 +43,7 @@
   color: var(--heading-color);
 }
 
-.footer_adress {
+.footer_content article .footer_adress {
   max-width: 20ch;
 }
 
@@ -51,6 +52,7 @@
   padding: 18px var(--padding-xs);
   border-radius: 12px;
   margin-bottom: var(--padding-xxs);
+  max-width: 234px;
 }
 
 .footer_phone .phone_number {
@@ -76,10 +78,12 @@
 .footer_bottom div {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--padding-xl);
+  gap: 60px;
 }
 
-.footer_bottom div a {
+.footer_bottom a,
+p {
   color: var(--text-color);
   font-size: 14px;
+  font-family: var(--text-font);
 }

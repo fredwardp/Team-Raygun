@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import content from "./Zusammenarbeit.json";
 import Leistungen4Phasen from "../../components/C_Leistungen/Leistungen4Phasen/Leistungen4Phasen";
-import LeistungenCJ from "../../components/C_Leistungen/LeistungenCJ/LeistungenCJ";
 import LeistungenFürWen from "../../components/C_Leistungen/LeistungenFürWen/LeistungenFürWen";
 import LeistungenHeader from "../../components/C_Leistungen/LeistungenHeader/LeistungenHeader";
 import LeistungenInbound from "../../components/C_Leistungen/LeistungenInbound/LeistungenInbound";
@@ -40,7 +39,6 @@ const Leistungen = () => {
         <LeistungenMagnet ref={vorteileRef} />
         <LeistungenLeistungen ref={leistungenRef} />
         <LeistungenInbound ref={methodeRef} />
-        <LeistungenCJ />
         <Leistungen4Phasen />
         <Leistungen4PhasenMobile />
         <LeistungenFürWen />

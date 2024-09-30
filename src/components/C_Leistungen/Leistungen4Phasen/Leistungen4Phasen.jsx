@@ -66,7 +66,16 @@ const Leistungen4Phasen = () => {
               )}
               {slideInfo.content.h3 && <h3>{slideInfo.content.h3}</h3>}
               {slideInfo.content.p && <p>{slideInfo.content.p}</p>}
-              {slideInfo.content.p2 && <p>{slideInfo.content.p2}</p>}
+              {slideInfo.content.p2 && (
+                <div class="phasen_stars_wrapper">
+                  {slideInfo.content.p2.map((line, index) => (
+                    <div key={index}>
+                      <img src="/img/leistungen_phasen_star.svg" alt="star" />
+                      {line}
+                    </div>
+                  ))}
+                </div>
+              )}
             </>
           </article>
         ))}

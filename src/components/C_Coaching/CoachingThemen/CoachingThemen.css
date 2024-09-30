@@ -3,6 +3,8 @@
   background: url(/img/leistungen_magnet_bg_blur.png) no-repeat;
   background-size: contain;
   background-position: top -20px right 10%;
+  position: relative;
+  z-index: 2;
 }
 .coaching_themen .header_gradient h2 {
   max-width: 24ch;

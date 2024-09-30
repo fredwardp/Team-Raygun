@@ -197,6 +197,15 @@
   .leistungen_inbound .content {
     grid-template-columns: 1fr;
   }
+  .leistungen_lst .content article div {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: var(--padding-s);
+    margin-bottom: unset;
+  }
+  .leistungen_fürwen .content article img {
+    margin-inline: auto;
+  }
   .leistungen_lst .heading {
     grid-template-columns: 1fr;
   }

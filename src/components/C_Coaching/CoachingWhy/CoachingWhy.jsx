@@ -19,9 +19,13 @@ const CoachingWhy = () => {
             <div className="shadow_effect"></div>
             <div className="row">
               <div></div>
-              <div className="min_width">
+              <div className="min_width first">
                 <article>
-                  <img src="/img/coaching_who_star.svg" alt="" />
+                  <img src="/img/five-star.svg" alt="star" />
+                  <img src="/img/five-star.svg" alt="star" />
+                  <img src="/img/five-star.svg" alt="star" />
+                  <img src="/img/five-star.svg" alt="star" />
+                  <img src="/img/five-star.svg" alt="star" />
                 </article>
                 <p className="coaching_wall_p">
                   Professionelle SEO-Ausbildung in renommierten Agenturen
@@ -33,7 +37,7 @@ const CoachingWhy = () => {
             <div className="row">
               <div></div>
               <div className="min_width"></div>
-              <div className="min_width">
+              <div className="min_width second">
                 <article>
                   <h3 className="coaching_wall_h3">7 Jahre</h3>
                 </article>
@@ -46,7 +50,7 @@ const CoachingWhy = () => {
             </div>
             <div className="row">
               <div></div>
-              <div className="min_width">
+              <div className="min_width third">
                 <article>
                   <h3 className="coaching_wall_h3">3 Jahre</h3>
                 </article>
@@ -57,7 +61,7 @@ const CoachingWhy = () => {
             <div className="row">
               <div style={{ maxWidth: "100px" }}></div>
               <div style={{ minWidth: "440px" }}></div>
-              <div className="min_width">
+              <div className="min_width forth">
                 <article>
                   <h3 className="coaching_wall_h3">20</h3>
                   <img src="/img/coaching_why_plus.svg" alt="" />
@@ -70,21 +74,6 @@ const CoachingWhy = () => {
               </div>
               <div></div>
             </div>
-            {/* <div className="row">
-            <div style={{ minWidth: "280px" }}></div>
-            <div className="min_width">
-              <article>
-                <img src="/img/default_square_icon.svg" alt="" />
-                <h3>Transparent</h3>
-              </article>
-              <p>
-                Ein Hoch auf die Datenerfassung, die unsere Arbeit messbar
-                macht. Mittels Tools und Dashboards wird jeder Erfolg sichtbar.
-              </p>
-            </div>
-            <div style={{ minWidth: "440px" }}></div>
-            <div></div>
-          </div> */}
             <div className="shadow_effect bottom"></div>
           </div>
         </div>

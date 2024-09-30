@@ -25,7 +25,7 @@ const CoachingWhat = () => {
       </section>
       <div className="coaching_what_boxes">
         <article>
-          <img src="/img/leistungen_magnet_icon_2.svg" alt="" />
+          <img src="/img/Remote-Icon.svg" alt="" />
           <h3>100% Remote</h3>
           <p>
             Für unser SEO-Coaching-Angebot nutzen wir Google Meet. Wenn du dein
@@ -36,7 +36,7 @@ const CoachingWhat = () => {
           </p>
         </article>
         <article>
-          <img src="/img/leistungen_magnet_icon_2.svg" alt="" />
+          <img src="/img/Inhalte-Icon.svg" alt="" />
           <h3>Vollen Zugriff auf alle Inhalte</h3>
           <p>
             Auf alle Dokumente, die wir während der Zusammenarbeit nutzen oder

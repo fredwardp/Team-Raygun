@@ -4,8 +4,9 @@
   align-items: center;
   gap: var(--padding-xxs);
   margin-block: var(--padding-xl);
+  position: relative;
+  z-index: 2;
 }
-
 .header_gradient h2 {
   max-width: 20ch;
   text-align: center;

@@ -29,8 +29,7 @@
 .leistungen_fürwen .content article img {
   width: 31px;
   display: block;
-  margin-inline: auto;
-  padding-block: 100px;
+  margin-bottom: var(--padding-s);
 }
 
 .leistungen_fürwen .content article h3 {
@@ -40,6 +39,6 @@
 }
 
 .leistungen_fürwen .content article p {
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-xs);
   line-height: 115%;
 }

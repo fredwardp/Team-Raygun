@@ -11,7 +11,7 @@
 :root {
   --main-font: Familjen_Grotesk;
   --text-font: Inter;
-  --font-size-3xl: clamp(5rem, 3.5714rem + 7.1429vw, 10rem);
+  --font-size-3xl: clamp(3.75rem, 2.4107rem + 5.7143vw, 8.125rem);
   --font-size-xxl: clamp(2.25rem, 1.4318rem + 4.0909vw, 4.5rem); /* 72px*/
   --font-size-xl: clamp(2rem, 1.6364rem + 1.8182vw, 3rem); /* 48px*/
   --font-size-l: clamp(1.25rem, 1.0466rem + 1.0169vw, 2rem); /* 32px*/
@@ -162,7 +162,7 @@ button {
 /* Datenschutz/Impressum styling */
 
 .formal_texts_wrapper {
-  background: url("./img/bg_top.svg") no-repeat;
+  background: url("/img/bg_top.svg") no-repeat;
   background-position: center -1700px;
 }
 

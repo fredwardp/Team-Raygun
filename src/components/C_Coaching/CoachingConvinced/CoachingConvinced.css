@@ -4,7 +4,7 @@
   background: var(--main-bg-color);
   position: relative;
   z-index: 10;
-  padding-block: var(--padding-xxl);
+  padding-block: 480px var(--padding-xxl);
 }
 
 .coaching_convinced div div {

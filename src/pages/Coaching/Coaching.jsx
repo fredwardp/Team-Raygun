@@ -16,7 +16,7 @@ const Coaching = () => {
   return (
     <>
       <CoachingHeader />
-      <main className="container">
+      <main className="container coaching_main">
         <CoachingWhat />
         <CoachingWho />
         <CoachingFormats />

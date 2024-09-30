@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 import "./HeaderGradient.css";
 
-const HeaderGradient = ({ subHeading, heading, span, text, heading2 }) => {
+const HeaderGradient = ({
+  subHeading,
+  heading,
+  span,
+  text,
+  heading2,
+  dsplNone,
+}) => {
   return (
     <div className="header_gradient">
       <div className="gradient_opacity_wrapper">
         <div></div>
-        <p>{subHeading}</p>
+        <p style={dsplNone ? { display: "none" } : {}}>{subHeading}</p>
       </div>
       {typeof heading === "object" ? (
         heading

@@ -53,7 +53,7 @@ const HomeHeader = () => {
             </div>
             <div className="btn_gradient_bg">
               <Link
-                to="kontakt/projektanfrage"
+                to="kontakt/zusammenarbeit"
                 className="btn_gradient btn_dark"
               >
                 Projektanfrage senden
