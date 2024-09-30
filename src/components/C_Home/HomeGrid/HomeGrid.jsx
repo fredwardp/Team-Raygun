@@ -22,7 +22,7 @@ const HomeGrid = () => {
                 Umsatzsteigerung, ganz ohne Werbeanzeigen.
               </p>
             </div>
-            <Link to="/leistungen">
+            <Link class="arrow_link" to="/leistungen">
               Unsere Leistungen
               <HomeLeistungenArrow />
             </Link>
@@ -48,7 +48,7 @@ const HomeGrid = () => {
               schützen.
             </p>
           </div>
-          <Link>
+          <Link class="arrow_link">
             Urkunde ansehen
             <HomeTreeArrow />
           </Link>
@@ -63,7 +63,7 @@ const HomeGrid = () => {
             </p>
           </div>
           <div>
-            <Link to="/agentur">
+            <Link class="arrow_link" to="/agentur">
               Über uns
               <HomeLeistungenArrow />
             </Link>
@@ -85,7 +85,7 @@ const HomeGrid = () => {
               <Link className="btn" to="/kontakt/seo-coaching">
                 Termin vereinbaren
               </Link>
-              <Link to="/coaching">
+              <Link class="arrow_link" to="/coaching">
                 Mehr erfahren
                 <HomeLeistungenArrow />
               </Link>

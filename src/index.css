@@ -258,6 +258,14 @@ button {
   padding-left: 4px;
 }
 
+.arrow_link svg {
+  transition: all 0.4s ease;
+}
+
+.arrow_link:hover svg {
+  transform: translateX(8px);
+}
+
 @media only screen and (max-width: 768px) {
   :root {
     --padding-xxl: 160px;

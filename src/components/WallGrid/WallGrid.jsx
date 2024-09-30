@@ -44,9 +44,9 @@ const WallGrid = () => {
             </div>
             <div className="last"></div>
           </div>
-          <div className="row">
+          <div className="row tres">
             <div></div>
-            <div className="min_width">
+            <div className="min_width ">
               <article>
                 <img src="/img/wallgrid_3.svg" alt="" />
                 <h3>Kreativ</h3>

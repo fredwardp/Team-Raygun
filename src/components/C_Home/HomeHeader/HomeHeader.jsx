@@ -38,6 +38,9 @@ const HomeHeader = () => {
       style={opacity > 0 ? { opacity: opacity } : { opacity: "0" }}
       ref={headerRef}
     >
+      <div className="home_hero_bg_wrapper">
+        <img src="/img/home_hero_bg.svg" alt="" />
+      </div>
       <div className="height_regulator">
         <article className="home_header_content container">
           <h1>Beam me up</h1>

@@ -10,6 +10,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 1000;
 }
 
 .nav_container .link_wrapper {
@@ -42,6 +44,7 @@ nav {
   border-radius: 16px;
   background: rgba(7, 8, 16, 0.35);
   display: none;
+  cursor: pointer;
 }
 
 .hamburger_menu .long {
@@ -133,6 +136,92 @@ nav {
   transition: 0.3s ease;
 }
 
+.mobile_menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 96px 7% 7% 7%;
+  z-index: 999; /* Bring the menu to the front */
+  gap: 20px;
+  overflow: hidden;
+  height: 0; /* Start with no height */
+  background-color: transparent; /* Start with transparent background */
+  transition: height 0.5s ease, background-color 0.5s ease; /* Animate both height and background-color */
+}
+
+/* Fade Links */
+.mobile_menu a {
+  margin: 24px 0;
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 24px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile_menu a:last-of-type {
+  width: 300px;
+  margin-inline: auto;
+  font-size: 22px;
+}
+
+/* Button Styles */
+.mobile_menu .nav_btn {
+  color: var(--main-bg-color);
+  height: 48px;
+  font-size: 16px;
+}
+
+/* Fade Link Animation */
+.fade_link {
+  margin: 10px 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.mobile_menu.open .fade_link {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.mobile_menu.closed .fade_link {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+/* Delay for Sequential Fade-In/Out */
+.mobile_menu .fade_link:nth-child(1) {
+  animation-delay: 0.15s;
+}
+
+.mobile_menu .fade_link:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.mobile_menu .fade_link:nth-child(3) {
+  animation-delay: 0.45s;
+}
+
+.mobile_menu .fade_link:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.mobile_menu .fade_link:nth-child(5) {
+  animation-delay: 0.75s;
+}
+
+.mobile_menu .fade_link:nth-child(6) {
+  animation-delay: 0.9s;
+}
+
 @media only screen and (max-width: 1100px) {
   .nav_logo {
     max-width: 80%;
@@ -145,5 +234,80 @@ nav {
   }
   .hamburger_menu {
     display: flex;
+  }
+  .mobile_menu {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 96px 24px 24px 24px;
+    z-index: 999; /* Bring the menu to the front */
+    gap: 20px;
+    overflow: hidden;
+    height: 0; /* Start with no height */
+    background-color: transparent; /* Start with transparent background */
+    transition: height 0.5s ease, background-color 0.5s ease; /* Animate both height and background-color */
+  }
+  .mobile_menu a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 18px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  .mobile_menu a:last-of-type {
+    width: 200px;
+
+    font-size: 16px;
+  }
+}
+/* Mobile Menu */
+
+/* Menu Opened State */
+.mobile_menu.open {
+  height: 100svh; /* Animate to full screen height */
+  background-color: var(--main-bg-color); /* Set background color on open */
+}
+
+/* First and Last Link Styling */
+.mobile_menu a:first-of-type {
+  padding-top: 32px;
+  border-top: 1px solid #45465d;
+}
+
+.mobile_menu a:nth-last-of-type(2) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #45465d;
+}
+
+/* Fade-In and Fade-Out Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
   }
 }

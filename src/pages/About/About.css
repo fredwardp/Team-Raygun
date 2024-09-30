@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1043px) {
+@media only screen and (max-width: 1173px) {
   .agentur_timeline h2 {
     font-size: 32px;
   }
@@ -6,10 +6,140 @@
     font-size: 32px;
     left: -210px;
   }
+  .agentur_timeline .content {
+    gap: 16%;
+  }
+  .member_wrapper {
+    gap: 40px;
+  }
+  .description {
+    font-size: 22px;
+  }
+  .member_wrapper article h3 {
+    font-size: var(--font-size-xm);
+  }
+  .bullet_points p {
+    font-size: 16px;
+  }
+  .bullet_points span {
+    font-size: 16px;
+  }
+  .member_wrapper img {
+    max-width: 30%;
+  }
+  .publikationen .content img {
+    height: 240px;
+  }
+  .article_wrapper {
+    min-height: 240px;
+  }
+  .article_wrapper h3 {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 780px) {
+  .agentur_about {
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: contain;
+    background-position: center top;
+  }
+  .agentur_about .content > p:first-of-type {
+    margin-bottom: -20px;
+  }
+  .agentur_about .img_wrapper {
+    margin-top: 60px;
+  }
+  .badges_wrapper {
+    max-width: 100%;
+
+    gap: 32px;
+  }
+  .badges_wrapper img {
+    max-width: 30%;
+  }
+  .agentur_header .home_header_btns .btn_gradient_bg {
+    margin: unset;
+  }
+  .member_wrapper {
+    flex-direction: column;
+  }
+  .member_wrapper img {
+    max-width: 100%;
+    max-height: 440px;
+  }
+  .agentur_timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .agentur_timeline .scroll_animation {
+    display: none;
+  }
+  .agentur_timeline .content {
+    gap: 80px;
+  }
+  .agentur_timeline .content article {
+    gap: 24px;
+  }
+  .agentur_timeline .content .year {
+    position: static;
+  }
+  .team_wrapper > div:nth-last-of-type(2) .description {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 494px) {
+  .agentur_header_content p {
+    font-size: 16px;
+  }
+  .badges_wrapper img {
+    max-width: 26%;
+  }
+  .member_wrapper img {
+    max-width: 100%;
+    max-height: 320px;
+  }
+  .agentur_team {
+    padding-block: var(--padding-xxl);
+  }
+  .show_content {
+    display: block;
+  }
+  .member_wrapper article span {
+    display: block;
+  }
+
+  .agentur_timeline {
+    padding-block: var(--padding-xxl);
+  }
+  .publikationen {
+    overflow: hidden;
+    margin-inline: -7%;
+    padding-inline: 5%;
+    margin-bottom: var(--padding-xl);
+  }
+  .article_wrapper {
+    min-height: 180px;
+  }
+  .publikationen .content img {
+    height: 180px;
+  }
+  .publikationen .content {
+    display: flex;
+    gap: 0;
+  }
+  .publikationen .content article {
+    min-width: 96%;
+    margin-inline: 2%;
+  }
+  .publikationen .arrows {
+    display: flex;
+  }
+  .publikationen h2 {
+    padding-left: 2%;
+  }
 }

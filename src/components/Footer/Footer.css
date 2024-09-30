@@ -41,6 +41,18 @@
   font-weight: 500;
   font-family: var(--text-font);
   color: var(--heading-color);
+  border-bottom: 1px solid transparent;
+  transition: all 0.4s ease;
+  width: max-content;
+}
+
+.footer_content article a:hover {
+  border-bottom: 1px solid var(--heading-color);
+}
+
+.footer_content article .footer_phone:hover {
+  border-bottom: 1px solid transparent;
+  box-shadow: 3px 3px 6px rgba(144, 255, 202, 0.1);
 }
 
 .footer_content article .footer_adress {
@@ -86,4 +98,10 @@ p {
   color: var(--text-color);
   font-size: 14px;
   font-family: var(--text-font);
+  border-bottom: 1px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.footer_bottom a:hover {
+  border-bottom: 1px solid var(--text-color);
 }

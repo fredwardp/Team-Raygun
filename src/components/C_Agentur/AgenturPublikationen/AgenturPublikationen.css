@@ -1,11 +1,12 @@
 .publikationen {
-  background-color: var(var(--main-bg-color));
+  background-color: (var(--main-bg-color));
   position: relative;
   z-index: 2;
   padding-bottom: var(--padding-xxl);
 }
 .publikationen h2 {
-  margin-bottom: 120px;
+  padding-top: var(--padding-xxl);
+  background-color: var(--main-bg-color);
 }
 
 .publikationen .content {
@@ -13,13 +14,15 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   background-color: var(--main-bg-color);
+  padding-top: 100px;
+  transition: transform 0.4s ease-in-out;
 }
 
 .publikationen .content img {
   height: 270px;
   object-fit: cover;
   width: 100%;
-  filter: brightness(0.9);
+  filter: brightness(0.9) blur(1px);
 }
 
 .publikationen .content article {
@@ -62,4 +65,8 @@
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.publikationen .arrows {
+  display: none;
 }

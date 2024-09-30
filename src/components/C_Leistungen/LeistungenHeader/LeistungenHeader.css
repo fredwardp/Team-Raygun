@@ -9,6 +9,8 @@
   transition: opacity 0.5s ease;
   opacity: 1;
   animation: ls-header-bg 2s linear forwards;
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes ls-header-bg {
@@ -52,6 +54,8 @@
   flex: 1;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .leistungen_header_content {

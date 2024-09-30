@@ -40,6 +40,14 @@
   footer .footer_content {
     width: unset;
   }
+  footer .footer_bottom {
+    gap: 20px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  footer .footer_bottom div {
+    gap: 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -140,6 +148,12 @@
   }
   .potenzial_analyse article {
     background-size: 200%, 400%, cover;
+  }
+  footer .footer_bottom div {
+    gap: 20px;
+  }
+  footer .footer_content_wrapper {
+    margin-bottom: 80px;
   }
 }
 
@@ -289,9 +303,6 @@
   }
   footer .footer_content article:last-of-type {
     margin-right: 25vw;
-  }
-  .footer_bottom p {
-    margin-bottom: 40px;
   }
 }
 

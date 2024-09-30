@@ -1,53 +1,50 @@
 .home_header {
   display: flex;
-  background: url("/img/leistungen_hero_bg.png"), url(/img/home_hero_bg.svg),
+  background: url("/img/leistungen_hero_bg.png"),
     url(/img/home_hero_shine_bg.svg);
   background-size: cover, contain, contain;
-  background-position: bottom -50vh center, center bottom -15vh,
-    center bottom -220px;
+  background-position: bottom center, center bottom -220px;
   background-repeat: no-repeat;
   flex-direction: column;
   justify-content: flex-end;
   transition: opacity 0.5s ease;
   opacity: 1;
-  /* animation: ls-header-bg 2s linear forwards; */
+  position: relative;
+  animation: ls-header-bg 2s linear forwards;
 }
 
-/* @keyframes ls-header-bg {
-  0% {
-    background: url("/img/leistungen_hero_bg.png");
-    background-size: cover;
-    background-position: bottom -50vh center, bottom -50vh center, center;
-    background-repeat: no-repeat;
-  }
-  20% {
-    background: url("/img/leistungen_hero_elipse_big.png"),
-      url("/img/leistungen_hero_elipse_small.png"),
-      url("/img/leistungen_hero_bg.png");
-    background-size: cover;
-    background-position: bottom -50vh center, bottom -50vh center, center;
-    background-repeat: no-repeat;
-  }
-  80% {
-    background: url("/img/leistungen_hero_elipse_big.png"),
-      url("/img/leistungen_hero_elipse_small.png"),
-      url("/img/leistungen_hero_bg.png");
-    background-size: cover;
-    background-position: bottom -28vh center, bottom -28vh center, center;
-    background-repeat: no-repeat;
-  }
-  100% {
-    background: url("/img/leistungen_hero_elipse_big.png"),
-      url("/img/leistungen_hero_elipse_small.png"),
-      url("/img/leistungen_hero_bg.png");
-    background-size: cover;
-    background-position: bottom -28vh center, bottom -28vh center, center;
-    background-repeat: no-repeat;
-  }
-} */
-
 .section.out-of-viewport {
-  opacity: 0.2; /* Adjust the opacity value as needed */
+  opacity: 0.2;
+}
+
+.home_hero_bg_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100svh;
+  z-index: -1;
+  opacity: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  animation: light-stripes 1.6s ease-in forwards;
+  overflow: hidden;
+}
+.home_hero_bg_wrapper img {
+  width: 100%;
+  margin-bottom: -10vh;
+}
+
+@keyframes light-stripes {
+  0%,
+  40% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: translateY(0);
+  }
 }
 
 .home_header .height_regulator {

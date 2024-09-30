@@ -12,6 +12,11 @@
     background-position: bottom 20vh center, center bottom, center bottom -220px;
     background-size: cover, 142%, contain;
   }
+  .home_hero_bg_wrapper img {
+    min-width: 140%;
+    margin-left: -20%;
+    margin-bottom: 10vh;
+  }
   .home_grid .container article {
     padding: 32px;
   }
@@ -160,6 +165,12 @@
     display: flex;
     flex-direction: column;
   }
+  .wallgrid .grid .tres {
+    padding-inline: 0;
+  }
+  .wallgrid .grid .tres .min_width {
+    padding-left: 90px;
+  }
 }
 
 @media only screen and (max-width: 553px) {
@@ -173,6 +184,11 @@
   }
   .home_header_content p {
     font-size: 16px;
+  }
+  .home_hero_bg_wrapper img {
+    min-width: 180%;
+    margin-left: -40%;
+    margin-bottom: 10vh;
   }
   .home_grid .container article {
     padding: 24px;
@@ -264,6 +280,13 @@
   .wallgrid .bg_wrapper .header_gradient h2 {
     max-width: unset;
     font-size: 32px;
+    padding-inline: 6%;
+  }
+  .wallgrid .bg_wrapper {
+    background-size: 160%;
+  }
+  .grid .row .min_width img {
+    height: 32px;
   }
   .ai_header {
     background-size: 100%;
@@ -324,5 +347,8 @@
   }
   .btn_dark {
     width: 220px;
+  }
+  .wallgrid .grid .tres .min_width {
+    padding-left: 65px;
   }
 }

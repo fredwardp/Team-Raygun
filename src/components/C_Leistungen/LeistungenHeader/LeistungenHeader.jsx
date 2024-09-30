@@ -58,7 +58,7 @@ const LeistungenHeader = ({
           <h1>Unsere Services für Dienstleister im B2B und B2C</h1>
 
           <div className="btn_gradient_bg">
-            <Link to="kontakt" className="btn_gradient">
+            <Link to="/kontakt/projektanfrage" className="btn_gradient">
               Kontakt aufnehmen
             </Link>
           </div>

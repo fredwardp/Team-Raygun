@@ -105,6 +105,15 @@
 }
 
 @media only screen and (max-width: 492px) {
+  .coaching_header h1 {
+    font-size: 36px;
+  }
+  .coaching_sub {
+    font-size: 16px;
+  }
+  .coaching_header_content {
+    gap: 34px;
+  }
   .agentur_about {
     background-size: 90%;
     background-position: center top 15%;

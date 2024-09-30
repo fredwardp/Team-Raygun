@@ -58,146 +58,144 @@ const Contact = () => {
     <header className="contact">
       <div className="container contact_wrapper">
         <h1>Kontakt</h1>
-        <div>
-          <form
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-            onSubmit={handleSubmit}
-          >
+        <form
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+          onSubmit={handleSubmit}
+        >
+          <div className="label_input_wrapper">
+            <label htmlFor="heard_from">Ich Interessiere mich für:*</label>
+            <div
+              className="custome_select"
+              onMouseEnter={() => setDropdownToggle((prev) => !prev)}
+              onMouseLeave={() => setDropdownToggle((prev) => !prev)}
+            >
+              {contactData.form_type}
+              <CustomeSelectIcon />
+              {dropdownToggle && (
+                <CustomeSelectDropdown
+                  setContactData={setContactData}
+                  contactData={contactData}
+                />
+              )}
+            </div>
+          </div>
+
+          <div className="input_flex">
             <div className="label_input_wrapper">
-              <label htmlFor="heard_from">Ich Interessiere mich für:*</label>
-              <div
-                className="custome_select"
-                onMouseEnter={() => setDropdownToggle((prev) => !prev)}
-                onMouseLeave={() => setDropdownToggle((prev) => !prev)}
-              >
-                {contactData.form_type}
-                <CustomeSelectIcon />
-                {dropdownToggle && (
-                  <CustomeSelectDropdown
-                    setContactData={setContactData}
-                    contactData={contactData}
-                  />
-                )}
-              </div>
-            </div>
-
-            <div className="input_flex">
-              <div className="label_input_wrapper">
-                <label htmlFor="from_name">Voller Name*</label>
-                <input
-                  value={contactData.from_name}
-                  id="from_name"
-                  type="text"
-                  onChange={(event) =>
-                    setContactData({
-                      ...contactData,
-                      from_name: event.target.value,
-                    })
-                  }
-                  placeholder="Anna Mustermann"
-                  style={getInputStyle("from_name")}
-                />
-              </div>
-
-              <div className="label_input_wrapper">
-                <label htmlFor="company">
-                  Unternehmen <span>(optional)</span>
-                </label>
-                <input
-                  value={contactData.company}
-                  type="text"
-                  id="company"
-                  onChange={(event) =>
-                    setContactData({
-                      ...contactData,
-                      company: event.target.value,
-                    })
-                  }
-                  placeholder="Gesellschaft GmbH"
-                />
-              </div>
-            </div>
-
-            <div className="input_flex">
-              <div className="label_input_wrapper">
-                <label htmlFor="from_email">E-Mail*</label>
-                <input
-                  value={contactData.from_email}
-                  type="email"
-                  id="from_email"
-                  onChange={(event) =>
-                    setContactData({
-                      ...contactData,
-                      from_email: event.target.value,
-                    })
-                  }
-                  placeholder="hello@seo-lernen.de"
-                  style={getInputStyle("from_email")}
-                />
-              </div>
-
-              <div className="label_input_wrapper">
-                <label htmlFor="website">Webseite*</label>
-                <input
-                  value={contactData.website}
-                  type="text"
-                  id="website"
-                  onChange={(event) =>
-                    setContactData({
-                      ...contactData,
-                      website: event.target.value,
-                    })
-                  }
-                  placeholder="www.beispiel.de"
-                  style={getInputStyle("website")}
-                />
-              </div>
-            </div>
-
-            <div className="label_input_wrapper">
-              <label htmlFor="heard_from">
-                Wie hast du von uns gehört? <span>(optional)</span>
-              </label>
+              <label htmlFor="from_name">Voller Name*</label>
               <input
-                value={contactData.heard_from}
+                value={contactData.from_name}
+                id="from_name"
                 type="text"
-                id="heard_from"
                 onChange={(event) =>
                   setContactData({
                     ...contactData,
-                    heard_from: event.target.value,
+                    from_name: event.target.value,
                   })
                 }
-                placeholder="z.B. Empfehlung"
+                placeholder="Anna Mustermann"
+                style={getInputStyle("from_name")}
               />
             </div>
 
             <div className="label_input_wrapper">
-              <label htmlFor="message">Deine Nachricht*</label>
-              <textarea
-                value={contactData.message}
-                id="message"
-                placeholder="Deine Nachricht an uns"
-                required
+              <label htmlFor="company">
+                Unternehmen <span>(optional)</span>
+              </label>
+              <input
+                value={contactData.company}
+                type="text"
+                id="company"
                 onChange={(event) =>
                   setContactData({
                     ...contactData,
-                    message: event.target.value,
+                    company: event.target.value,
                   })
                 }
-                style={getInputStyle("message")}
-              ></textarea>
+                placeholder="Gesellschaft GmbH"
+              />
+            </div>
+          </div>
+
+          <div className="input_flex">
+            <div className="label_input_wrapper">
+              <label htmlFor="from_email">E-Mail*</label>
+              <input
+                value={contactData.from_email}
+                type="email"
+                id="from_email"
+                onChange={(event) =>
+                  setContactData({
+                    ...contactData,
+                    from_email: event.target.value,
+                  })
+                }
+                placeholder="hello@seo-lernen.de"
+                style={getInputStyle("from_email")}
+              />
             </div>
 
-            <button className="btn_gradient" type="submit">
-              Kontakt aufnehmen
-            </button>
-          </form>
-        </div>
+            <div className="label_input_wrapper">
+              <label htmlFor="website">Webseite*</label>
+              <input
+                value={contactData.website}
+                type="text"
+                id="website"
+                onChange={(event) =>
+                  setContactData({
+                    ...contactData,
+                    website: event.target.value,
+                  })
+                }
+                placeholder="www.beispiel.de"
+                style={getInputStyle("website")}
+              />
+            </div>
+          </div>
+
+          <div className="label_input_wrapper">
+            <label htmlFor="heard_from">
+              Wie hast du von uns gehört? <span>(optional)</span>
+            </label>
+            <input
+              value={contactData.heard_from}
+              type="text"
+              id="heard_from"
+              onChange={(event) =>
+                setContactData({
+                  ...contactData,
+                  heard_from: event.target.value,
+                })
+              }
+              placeholder="z.B. Empfehlung"
+            />
+          </div>
+
+          <div className="label_input_wrapper">
+            <label htmlFor="message">Deine Nachricht*</label>
+            <textarea
+              value={contactData.message}
+              id="message"
+              placeholder="Deine Nachricht an uns"
+              required
+              onChange={(event) =>
+                setContactData({
+                  ...contactData,
+                  message: event.target.value,
+                })
+              }
+              style={getInputStyle("message")}
+            ></textarea>
+          </div>
+
+          <button className="btn_gradient" type="submit">
+            Kontakt aufnehmen
+          </button>
+        </form>
       </div>
     </header>
   );

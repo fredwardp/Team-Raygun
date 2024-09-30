@@ -1,10 +1,26 @@
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Nav = () => {
   const [hamburgerToggle, setHamburgerToggle] = useState(false);
-  console.log(hamburgerToggle);
+
+  useEffect(() => {
+    if (hamburgerToggle) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [hamburgerToggle]);
+
+  const handleHamburgerToggle = () => {
+    setHamburgerToggle((prev) => !prev);
+  };
+
   return (
     <nav>
       <div className="nav_container container">
@@ -21,10 +37,7 @@ const Nav = () => {
         <Link to="/kontakt/projektanfrage" className="btn_gradient nav_btn">
           Kontakt aufnehmen
         </Link>
-        <div
-          className="hamburger_menu"
-          onClick={() => setHamburgerToggle((prev) => !prev)}
-        >
+        <div className="hamburger_menu" onClick={handleHamburgerToggle}>
           <div
             className={`long ${
               hamburgerToggle ? "long_top_open" : "long_top_close"
@@ -41,6 +54,48 @@ const Nav = () => {
             }`}
           ></div>
         </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <div className={`mobile_menu ${hamburgerToggle ? "open" : "closed"}`}>
+        <Link to="/" className="fade_link" onClick={handleHamburgerToggle}>
+          Startseite
+        </Link>
+        <Link
+          to="/leistungen"
+          className="fade_link"
+          onClick={handleHamburgerToggle}
+        >
+          Leistungen
+        </Link>
+        <Link
+          to="/coaching"
+          className="fade_link"
+          onClick={handleHamburgerToggle}
+        >
+          SEO-Coaching
+        </Link>
+        <Link
+          to="/casestudies"
+          className="fade_link"
+          onClick={handleHamburgerToggle}
+        >
+          Case Studies
+        </Link>
+        <Link
+          to="/agentur"
+          className="fade_link"
+          onClick={handleHamburgerToggle}
+        >
+          Agentur
+        </Link>
+        <Link
+          to="/kontakt/projektanfrage"
+          className="btn_gradient nav_btn fade_link"
+          onClick={handleHamburgerToggle}
+        >
+          Kontakt aufnehmen
+        </Link>
       </div>
     </nav>
   );
