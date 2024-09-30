@@ -13,7 +13,7 @@ const text = (
         color: "var(--text-color)",
         fontWeight: "400",
       }}
-      to="/contact"
+      to="/kontakt/projektanfrage"
     >
       Kontaktiere uns
     </Link>
