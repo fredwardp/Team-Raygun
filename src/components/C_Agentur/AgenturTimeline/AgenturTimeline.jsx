@@ -58,7 +58,7 @@ const AgenturTimeline = () => {
   return (
     <section ref={sectionRef} className="agentur_timeline">
       <div className="heading_wrapper">
-        <h2>Unsere Story</h2>
+        <h2>Gründungs-Timeline</h2>
       </div>
       <div className="scroll_animation">
         <div className="circle" ref={(el) => (circleRefs.current[0] = el)}>

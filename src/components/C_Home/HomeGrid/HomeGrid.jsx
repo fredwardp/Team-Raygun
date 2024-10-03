@@ -48,10 +48,15 @@ const HomeGrid = () => {
               schützen.
             </p>
           </div>
-          <Link class="arrow_link">
-            Urkunde ansehen
+          <a
+            href={`${window.location.origin}/urkunde_120 _bäume.pdf`}
+            className="arrow_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Urkunden ansehen
             <HomeTreeArrow />
-          </Link>
+          </a>
         </article>
         <article class="item3 glassmorph">
           <div>
@@ -99,7 +104,7 @@ const HomeGrid = () => {
           <h2>"Content Marketing in Zeiten von KI"</h2>
           <p className="autor">Maximilian Pawelzik</p>
           <a className="btn" href="">
-            Download PDF
+            Coming soon
           </a>
         </article>
       </div>

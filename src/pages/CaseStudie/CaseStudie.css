@@ -185,6 +185,10 @@
   padding-bottom: 0;
 }
 
+.case_studie_data_img {
+  border-radius: 24px;
+}
+
 @media only screen and (max-width: 768px) {
   .case_studie_header .header_description {
     gap: 30px;

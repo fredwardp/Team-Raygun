@@ -63,6 +63,10 @@
   width: max-content;
 }
 
+.agentur_timeline .content article p:last-of-type {
+  font-size: 18px;
+}
+
 .agentur_timeline .content article h3 {
   font-weight: 500;
   font-size: 24px;

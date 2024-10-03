@@ -17,12 +17,11 @@
         "profession": "Gründer und Geschäftsführer, triangility GmbH"
       },
       "result": {
-        "description": "Ergebnisse nach 9 Monaten Zusammenarbeit",
         "resultData": [
           {
             "heading": "2x",
             "subHeading": "Anfragen",
-            "text": "Verdoppelung der Anfragen über unsere Website je Quartal (von 9 auf 20, Tendenz steigend)"
+            "text": "Verdoppelung der Anfragen über die Website je Quartal (von 9 auf 20, Tendenz steigend)"
           },
           {
             "heading": "+40k",
@@ -36,15 +35,15 @@
           }
         ]
       },
-      "dataImg": "/img/casestudies/triangility/data_img.png"
+      "dataImg": "/img/casestudies/triangility/data_img.jpg"
     }
   },
   "emotionalRelease": {
     "header": {
       "name": "Emotional Release",
       "branche": "Heilpraktiker Praxis",
-      "typ": "B2B, national",
-      "zeitraum": "2022 - heute",
+      "typ": "B2C, national",
+      "zeitraum": "2021 - heute",
       "background": "radial-gradient(50% 100% at 50% 0%, rgba(229, 82, 160, 0.25) 0%, rgba(229, 82, 160, 0.05) 100%)",
       "img": "/img/casestudies/emotionalRelease/heading_img.png"
     },
@@ -57,7 +56,6 @@
         "profession": "Geschäftsführerin von EMOTIONAL RELEASE"
       },
       "result": {
-        "description": "Ergebnisse & Vergleich zwischen 2022 und 2023",
         "resultData": [
           {
             "heading": "+95%",
@@ -76,14 +74,14 @@
           }
         ]
       },
-      "dataImg": "/img/casestudies/emotionalRelease/data_img.png"
+      "dataImg": "/img/casestudies/emotionalRelease/data_img.jpg"
     }
   },
   "mpuWolff": {
     "header": {
       "name": "MPU Wolff",
       "branche": "Anbieter für MPU-Vorbereitung",
-      "typ": "B2B, national",
+      "typ": "B2C, national",
       "zeitraum": "2021 - heute",
       "background": "radial-gradient(50% 100% at 50% 0%, rgba(162, 201, 93, 0.25) 0%, rgba(162, 201, 93, 0.05) 100%)",
       "img": "/img/casestudies/mpuWolff/heading_img.png"
@@ -97,7 +95,6 @@
         "profession": "Geschäftsführer und Gründer von MPU Wolff"
       },
       "result": {
-        "description": "Ergebnisse nach 6 Monaten Zusammenarbeit",
         "resultData": [
           {
             "heading": "+25%",
@@ -116,7 +113,7 @@
           }
         ]
       },
-      "dataImg": "/img/casestudies/mpuWolff/data_img.png"
+      "dataImg": "/img/casestudies/mpuWolff/data_img.jpg"
     }
   }
 }

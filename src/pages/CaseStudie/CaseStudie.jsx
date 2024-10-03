@@ -57,7 +57,6 @@ const CaseStudie = () => {
           <div className="left">
             <div>
               <h2>Erreichte Ergebnisse</h2>
-              <p>{company.main.result.description}</p>
             </div>
           </div>
 
@@ -71,7 +70,11 @@ const CaseStudie = () => {
             ))}
           </div>
         </div>
-        <img src={company.main.dataImg} alt="" />
+        <img
+          className="case_studie_data_img"
+          src={company.main.dataImg}
+          alt=""
+        />
       </main>
       <PotenzialAnalyse />
     </>

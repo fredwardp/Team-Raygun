@@ -2,6 +2,14 @@
   padding: unset;
 }
 
+.coaching_main .leistungen_zusammenarbeit .content {
+  gap: 0;
+}
+
+.coaching_main .leistungen_zusammenarbeit .scroll_animation .line {
+  height: 440px;
+}
+
 @media only screen and (max-width: 1200px) {
   .coaching_themen {
     background-position: top 50px center;
@@ -55,6 +63,14 @@
     background-position: top 20px center;
     background-size: 180%;
     margin-inline: -7%;
+    padding-inline: 7%;
+  }
+  .coaching_main .coaching_wallgrid_bg_wrapper {
+    background-position: top 20px center;
+    background-size: 180%;
+    margin-inline: -7%;
+  }
+  .coaching_main .coaching_wallgrid_bg_wrapper .grid {
     padding-inline: 7%;
   }
   .coaching_themen .coaching_grid {

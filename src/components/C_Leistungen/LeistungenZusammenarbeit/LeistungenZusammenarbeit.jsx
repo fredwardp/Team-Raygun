@@ -81,6 +81,7 @@ const LeistungenZusammenarbeit = ({ content, heading, smallFont }) => {
             <p>{data.number}</p>
             <h3>{data.heading}</h3>
             <p>{data.text}</p>
+            {data.text2 && <p>{data.text2}</p>}
             {/* {index === 2 && <div className="background_div"></div>} */}
           </article>
         ))}

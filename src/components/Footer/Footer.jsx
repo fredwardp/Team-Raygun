@@ -38,7 +38,12 @@ const Footer = () => {
           </article>
           <article>
             <h2>Socials</h2>
-            <a href="">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/maximilian-pawelzik-seo-manager/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
           </article>
         </div>
       </div>
